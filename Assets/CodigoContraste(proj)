@@ -1,0 +1,38 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ContrastSlider : MonoBehaviour
+{
+    public Slider slider;
+
+    private void Start()
+    {
+        slider.onValueChanged.AddListener(ChangeContrast);
+    }
+ private void ChangeContrast(float value)
+{
+    // Obtém o componente PostProcessingBehaviour na câmera principal
+    PostProcessingBehaviour postProcessing = Camera.main.GetComponent<PostProcessingBehaviour>();
+    
+    // Verifica se o componente existe
+    if (postProcessing != null)
+    {
+        // Obtém o perfil de pós-processamento atual
+        PostProcessingProfile profile = postProcessing.profile;
+        
+        // Verifica se o perfil existe
+        if (profile != null)
+        {
+            // Obtém o componente de ajuste de contraste
+            Contrast contrast;
+            if (profile.TryGetSettings(out contrast))
+            {
+                // Define o valor de contraste com base no valor do slider
+                contrast.intensity = value;
+            }
+        }
+    }
+}
+}
