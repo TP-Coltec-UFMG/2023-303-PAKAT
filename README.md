@@ -21,3 +21,4 @@ Nesse cenário uma tela de configurações é aberta e nela existem as seguintes
   
   Códigos do jogo 
   Para o menu nos usamos dois scripts, o primeiro é o que habilita as funções do menu inicial, deixando os botões clicáveis e execuntando as funções de cada um, o segundo codigo ainda não está totalmente pronto, ele só habilita os botões e a função voltar que retorna ao menu incial.
+![menuPrincipal](
