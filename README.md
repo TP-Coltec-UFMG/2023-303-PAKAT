@@ -1,7 +1,7 @@
 # PAKAT
 Jogo criado para o trabalho de Unity de Tecnologias de Programação
 
-Cenário 1 menu inicial 
+## Menu Inicial 
 
 Nosso jogo começa com um menu, que tem como tela de fundo um possível cenário do jogo, que vai ser sobre trekking. Nesse cenário se encontram 5 personagens que representam os 5 criadores do jogo (que possivelmente vão estar dentro do jogo também). 
 No Menu existem 3 opções:
@@ -11,7 +11,7 @@ No Menu existem 3 opções:
  
 ![menuPrincipal](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuPrincipal.png)
 
-Cenario 2 ajustes 
+## Ajustes 
 
 Nesse cenário uma tela de configurações é aberta e nela existem as seguintes opções:
   Modo daltonismo: coloca a configuração visual do jogo de acordo com o tipo de daltonismo do usuário, sendo acromático, dicromático ou tricomático.
