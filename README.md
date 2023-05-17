@@ -8,11 +8,13 @@ No Menu existem 3 opções:
   Jogar- entrar no jogo 
   Ajustes- entra em outra tela com configurações (vai ser explicada depois)
   Sair- saí do jogo 
-  
-Cenario 2 austes 
+ 
+![menuPrincipal](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuPrincipal.png)
+
+Cenario 2 ajustes 
 
 Nesse cenário uma tela de configurações é aberta e nela existem as seguintes opções:
-  Modo daltonismo: coloca a configuração visual do jogo de acordo com o tipo de daltonismo do usuario, sendo acromático, dicromático ou tricomático.
+  Modo daltonismo: coloca a configuração visual do jogo de acordo com o tipo de daltonismo do usuário, sendo acromático, dicromático ou tricomático.
   Dificuldade: Define a dificuldade do jogo em medio difícil e fácil 
   Volume: barra de arrastar que aumenta ou diminiu o volume 
   Contraste: Muda o contraste do jogo, deixando mais claro ou escuro 
@@ -21,4 +23,5 @@ Nesse cenário uma tela de configurações é aberta e nela existem as seguintes
   
   Códigos do jogo 
   Para o menu nos usamos dois scripts, o primeiro é o que habilita as funções do menu inicial, deixando os botões clicáveis e execuntando as funções de cada um, o segundo codigo ainda não está totalmente pronto, ele só habilita os botões e a função voltar que retorna ao menu incial.
-![menuPrincipal](
+
+![menuAjustes](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuAjuste.png)
