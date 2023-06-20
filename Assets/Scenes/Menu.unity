@@ -4567,16 +4567,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1385252026}
-        m_TargetAssemblyTypeName: MenuPrincipalManager, Assembly-CSharp
-        m_MethodName: Jogar
-        m_Mode: 1
+      - m_Target: {fileID: 1385252029}
+        m_TargetAssemblyTypeName: ProximaFase, Assembly-CSharp
+        m_MethodName: loadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MenuFases
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!114 &1321994999
@@ -4782,6 +4782,7 @@ GameObject:
   - component: {fileID: 1385252027}
   - component: {fileID: 1385252026}
   - component: {fileID: 1385252028}
+  - component: {fileID: 1385252029}
   m_Layer: 0
   m_Name: MenuManeger
   m_TagString: Untagged
@@ -4835,6 +4836,18 @@ MonoBehaviour:
   somLigadoSprite: {fileID: 21300000, guid: fce7d2c6a280e9b7e84da70052134915, type: 3}
   somDesligadoSprite: {fileID: 21300000, guid: 7c353226fb7299edb949b37aefaa8e41, type: 3}
   muteImage: {fileID: 835686657}
+--- !u!114 &1385252029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385252025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96bdd0102ef008c48819bfd9b8c9d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1508363245
 GameObject:
   m_ObjectHideFlags: 0
