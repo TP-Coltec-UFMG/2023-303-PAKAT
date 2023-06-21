@@ -28,5 +28,8 @@ public class Dialog : MonoBehaviour
             dc.Speech(profile, speechTxt, actorName);
         }
     }
+    private void OnDrawGizmosSelected(){
+        Gizmos.DrawWireSphere(transform.position, radious);
+    }
 
 }
