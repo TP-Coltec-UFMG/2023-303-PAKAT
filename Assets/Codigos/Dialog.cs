@@ -44,5 +44,5 @@ public class Dialog : MonoBehaviour
     private void OnDrawGizmosSelected(){
         Gizmos.DrawWireSphere(transform.position, radious);
     }
-
+//aaaa
 }
