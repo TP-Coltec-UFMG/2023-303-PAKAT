@@ -43,20 +43,22 @@ Nesse menu os 5 personagens são mostrados e clicando em cima do icone de cada u
     3- geneterater- Gera obstáculos infinitos para o surfista movimentar
 
   ## Fase 2 Prates 
-    Nessa Fase o personagem prates vai entrar em uma cena incial introdutória como a da fase do zinckenko, e após isso vai passar por um labirinto onde vai ter a visão reduzida, tendo que passar pelo mapa todo para ir coletando recompensas nos cantos e terminar a fase vencedor.
+  Nessa Fase o personagem prates vai entrar em uma cena incial introdutória como a da fase do zinckenko, e após isso vai passar por um labirinto onde vai ter a visão reduzida, tendo que passar pelo mapa todo para ir coletando recompensas nos cantos e terminar a fase vencedor.
   ## scripts 
-     O script até então é basicamente de movimentação, o personagem pode se movimentar para cima, baixo, direita e esquerda. 
+   O script até então é basicamente de movimentação, o personagem pode se movimentar para cima, baixo, direita e esquerda. 
      
   ## Fase 3 tm 
+   Nessa fase o personagem tm vai se perder e para conseguir sair ele precisará nadar e desviar de pedras no fundo do do rio
   ## scripts 
+   Os scripts relacionados são, movimentação do personagem, gerador de obstaculos, obstaculos, e contador de pontuação.
 
   ## Fase 4 Waltin 
   ## scripts 
 
   ## Fase 5 kaio 
-    A fase faz com que o personagem corra em procura do honda o qual sumiu com isso possui alguns obstaculos como pedras e poças de agua , a missão acaba quando o honda é encontrado.
+   A fase faz com que o personagem corra em procura do honda o qual sumiu com isso possui alguns obstaculos como pedras e poças de agua , a missão acaba quando o honda é encontrado.
   ## scripts 
-    O script utilizado ate o momento foi o de jump para desviar ds obstaculos
+   O script utilizado ate o momento foi o de jump para desviar ds obstaculos
 
   ## CutScenes final 
     Os 5 personagens vão se encontrar conversar um pouco e sair andando juntos, no final vai mostrar a van saindo como na cena inicial 
