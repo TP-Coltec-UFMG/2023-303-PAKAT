@@ -1,3 +1,4 @@
+
 # PAKAT
 Jogo criado para o trabalho de Unity de Tecnologias de Programação
 
@@ -35,12 +36,17 @@ Nesse menu os 5 personagens são mostrados e clicando em cima do icone de cada u
 ## Fase 1 Zinchenko 
   Nessa fase existem duas cenas, na primeira acontece uma introdução com legenda e um pequeno dialogo do personagem Zinchenko consigo mesmo, já na segunda entra no jogo dele, onde existe um fundio azul e ele nada por ele como se estivesse surfando, nesse caminho ele tem que desviar de alguns objetos que estão boiando no rio, a fase ainda está incompleta, no final ele vai vencer se passar mais de um minuto seguido desviando dos objetos 
   ## scripts 
-  
+  Na cena inicial existe o script controlador de dialogos, que vai pegar as os um array de strings e passar eles na tela, alterando de um para o outro por meio de um clique na tela, que vai 
+  Ja na segunda cena existem 3 scripts 
+    1- User, movimenta o usuário
+    2-Obstacle, movimenta os obstaculos 
+    3- geneterater- Gera obstáculos infinitos para o surfista movimentar
 
   ## Fase 2 Prates 
-  aaaaaaaaa
+    Nessa Fase o personagem prates vai entrar em uma cena incial introdutória como a da fase do zinckenko, e após isso vai passar por um labirinto onde vai ter a visão reduzida, tendo que passar pelo mapa todo para ir coletando recompensas nos cantos e terminar a fase vencedor.
   ## scripts 
-
+     O script até então é basicamente de movimentação, o personagem pode se movimentar para cima, baixo, direita e esquerda. 
+     
   ## Fase 3 tm 
   ## scripts 
 
@@ -48,7 +54,9 @@ Nesse menu os 5 personagens são mostrados e clicando em cima do icone de cada u
   ## scripts 
 
   ## Fase 5 kaio 
+    A fase faz com que o personagem corra em procura do honda o qual sumiu com isso possui alguns obstaculos como pedras e poças de agua , a missão acaba quando o honda é encontrado.
   ## scripts 
+    O script utilizado ate o momento foi o de jump para desviar ds obstaculos
 
   ## CutScenes final 
     Os 5 personagens vão se encontrar conversar um pouco e sair andando juntos, no final vai mostrar a van saindo como na cena inicial 
