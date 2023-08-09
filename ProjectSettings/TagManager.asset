@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - barreira
+  - "ch\xE3o"
+  - obstaculo
   layers:
   - Default
   - TransparentFX
