@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class vanAndando : MonoBehaviour
 {
     [SerializeField] private float velocidade;
-    [SerializeField] private string nomedaCena;
     [SerializeField] private GameObject imagemContinuar;
     
     void Start()
@@ -27,7 +26,7 @@ public class vanAndando : MonoBehaviour
         }
     }
 
-    public void continuar(){
+    public void continuar(string nomedaCena){
         SceneManager.LoadScene(nomedaCena);
     }
 
