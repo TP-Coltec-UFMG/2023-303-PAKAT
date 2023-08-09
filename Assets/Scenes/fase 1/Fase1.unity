@@ -457,8 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 500
-  limiteInferior: -5
-  posicaoInicial: {x: 0.0024, y: 4.49, z: 0}
+  posicaoHorizontalSaida: 0
 --- !u!1 &2125456092
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1987691346142165762, guid: 7e1c302abe347c12788c932f99925c48, type: 3}
       propertyPath: m_Name
-      value: Obstaculo 1
+      value: Obstaculo1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e1c302abe347c12788c932f99925c48, type: 3}
