@@ -20,8 +20,40 @@ Nesse cenário uma tela de configurações é aberta e nela existem as seguintes
   Contraste: Muda o contraste do jogo, deixando mais claro ou escuro  
   Fonte: Muda o tamanho das fontes deixando as mesmas maiores para pessoas que enxergam mal.  
   Voltar: retorna a tela inicial
-  
-## Scripts do jogo 
-  Para o menu nos usamos dois scripts, o primeiro é o que habilita as funções do menu inicial, deixando os botões clicáveis e execuntando as funções de cada um, o segundo codigo ainda não está totalmente pronto, ele só habilita os botões e a função voltar que retorna ao menu incial.
+  ![menuAjustes](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuAjuste.png)
 
-![menuAjustes](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuAjuste.png)
+  ## CutScenes
+Essas são cenas introdutória do nosso game, na primeira há uma cena em que uma van anda por um cenário inicial, e após isso aparece uma tela preta escrita algumas horas depois, já na segunda os 6 personagens do jogo são apresentados e andam para a direita, a segunda cena vai ter uma pequena legenda que ainda não foi implementada 
+## scripts 
+
+
+
+## Menu das Fases 
+Nesse menu os 5 personagens são mostrados e clicando em cima do icone de cada um você é direcionado para a respectiva página desse personagem, após você fazer cada fase o incone do personagem não vai mais estar disponível para ser jogado, e quando você completar todas as fazes vai liberar uma cena final.
+
+
+## Fase 1 Zinchenko 
+  Nessa fase existem duas cenas, na primeira acontece uma introdução com legenda e um pequeno dialogo do personagem Zinchenko consigo mesmo, já na segunda entra no jogo dele, onde existe um fundio azul e ele nada por ele como se estivesse surfando, nesse caminho ele tem que desviar de alguns objetos que estão boiando no rio, a fase ainda está incompleta, no final ele vai vencer se passar mais de um minuto seguido desviando dos objetos 
+  ## scripts 
+  
+
+  ## Fase 2 Prates 
+  aaaaaaaaa
+  ## scripts 
+
+  ## Fase 3 tm 
+  ## scripts 
+
+  ## Fase 4 Waltin 
+  ## scripts 
+
+  ## Fase 5 kaio 
+  ## scripts 
+
+  ## CutScenes final 
+    Os 5 personagens vão se encontrar conversar um pouco e sair andando juntos, no final vai mostrar a van saindo como na cena inicial 
+
+
+
+
+
