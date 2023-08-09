@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuFases.unity
     guid: 962abb0398231fa0faa8eeb213f8ee97
   - enabled: 1
-    path: Assets/Scenes/Fase1.unity
+    path: Assets/Scenes/fase 1/Fase1.unity
     guid: f6417dd3e02cad9b182f6a1b5b24585b
   - enabled: 1
     path: Assets/Scenes/Fase2.unity
