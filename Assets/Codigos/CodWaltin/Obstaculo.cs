@@ -14,11 +14,15 @@ public class Obstaculo: MonoBehaviour {
         this.transform.Translate(Vector3.down    * this.velocidade * Time.deltaTime);
     }
 
-    // private void OnTriggerEnter2D(Collider2D outro){
-    //     this.Destruir();
-    // }
+    private void OnTriggerEnter2D(Collider2D outro){
+        Debug.Log("Bateu em: " + outro.gameObject.tag);
+        if(outro.gameObject.tag == "barreira")
+            this.Destruir();
+        // else if(outro.gameObject.tag == "Player")
+        //     Destroy(outro.gameObject);
+    }
 
-    // public void Destruir(){
-    //     Destroy(this.gameObject);
-    // }
+    public void Destruir(){
+        Destroy(this.gameObject);
+    }
 }
