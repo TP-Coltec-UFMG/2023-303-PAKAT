@@ -6,12 +6,19 @@ public class Obstacle : MonoBehaviour
 {
     [SerializeField] private float velocidade = 5f;
 
+    private User jogador; // Referência ao script do jogador
+
+    private void Start()
+    {
+        jogador = FindObjectOfType<User>();
+    }
+
     private void Update()
     {
         this.transform.Translate(Vector3.up * this.velocidade * Time.deltaTime);
 
-        // Verifique se o obstáculo saiu da tela e destrua-o
-        if (this.transform.position.y > Camera.main.orthographicSize)
+        // Verifique se o jogador atingiu a posição horizontal de saída e destrua o obstáculo
+        if (transform.position.y > Camera.main.orthographicSize || Mathf.Abs(transform.position.x - jogador.posicaoHorizontalSaida) < 0.01f)
         {
             Destroy(this.gameObject);
         }

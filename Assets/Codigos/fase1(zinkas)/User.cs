@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class user : MonoBehaviour
+public class User : MonoBehaviour
 {
     private Rigidbody2D player;
     [SerializeField] private float speed;
 
     private float alturaTela;
-    public float limiteInferior = -5f; // Defina o limite inferior da tela
-    public Vector3 posicaoInicial; // Defina a posição inicial do jogador
+    private float limiteInferior = -5f; // Defina o limite inferior da tela
+    public float posicaoHorizontalSaida; // Armazena a posição horizontal de saída
 
     void Start()
     {
@@ -26,8 +26,12 @@ public class user : MonoBehaviour
         // Verifique se o jogador atingiu o limite inferior da tela
         if (transform.position.y < limiteInferior)
         {
-            // Reposicione o jogador para a posição inicial
-            transform.position = posicaoInicial;
+            posicaoHorizontalSaida = transform.position.x;
+
+            // Reposicione o jogador para a posição de saída do mapa, com y ajustado para o topo da tela
+            transform.position = new Vector3(posicaoHorizontalSaida, alturaTela, transform.position.z);
         }
     }
 }
+
+
