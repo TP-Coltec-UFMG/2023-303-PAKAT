@@ -21,7 +21,7 @@ Nesse cenário uma tela de configurações é aberta e nela existem as seguintes
   Fonte: Muda o tamanho das fontes deixando as mesmas maiores para pessoas que enxergam mal.
   Voltar: retorna a tela inicial 
   
-  Códigos do jogo 
+## Scripts do jogo 
   Para o menu nos usamos dois scripts, o primeiro é o que habilita as funções do menu inicial, deixando os botões clicáveis e execuntando as funções de cada um, o segundo codigo ainda não está totalmente pronto, ele só habilita os botões e a função voltar que retorna ao menu incial.
 
 ![menuAjustes](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuAjuste.png)
