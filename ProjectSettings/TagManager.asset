@@ -5,9 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - barreira
-  - "ch\xE3o"
   - obstaculo
   - armadilha
+  - vitoria
+  - chao
   layers:
   - Default
   - TransparentFX
