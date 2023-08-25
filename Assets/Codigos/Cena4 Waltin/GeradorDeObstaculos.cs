@@ -22,6 +22,7 @@ public class GeradorDeObstaculos : MonoBehaviour {
 
         // Gerar o primeiro obstáculo no início do código
         GameObject.Instantiate(arvoreE, transform.position, Quaternion.identity);
+        //GameObject.Instantiate(porteira, transform.position, Quaternion.identity);
     }
 
     private void Update() {
@@ -47,7 +48,7 @@ public class GeradorDeObstaculos : MonoBehaviour {
             }
 
             // Verifica se o tempo total decorrido é maior que 60 segundos (1 minuto)
-            if (tempoDecorrido > 15f) {
+            if (tempoDecorrido > 10f) {
                 obstaculosProntos = true;
                 GameObject.Instantiate(porteira, transform.position, Quaternion.identity);
             }
