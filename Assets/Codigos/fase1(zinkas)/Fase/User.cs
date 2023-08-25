@@ -9,7 +9,10 @@ public class User : MonoBehaviour
 
     private float alturaTela;
     private float limiteInferior = -5f; // Defina o limite inferior da tela
+    private float limiteSuperior = 5f;
     public float posicaoHorizontalSaida; // Armazena a posição horizontal de saída
+   
+    
 
     void Start()
     {
@@ -24,14 +27,17 @@ public class User : MonoBehaviour
             Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
 
         // Verifique se o jogador atingiu o limite inferior da tela
-        if (transform.position.y < limiteInferior)
+          if (transform.position.y < limiteInferior)
         {
             posicaoHorizontalSaida = transform.position.x;
+
+         
 
             // Reposicione o jogador para a posição de saída do mapa, com y ajustado para o topo da tela
             transform.position = new Vector3(posicaoHorizontalSaida, alturaTela, transform.position.z);
         }
     }
 }
+
 
 

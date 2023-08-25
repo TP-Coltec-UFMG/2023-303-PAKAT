@@ -21,7 +21,7 @@ public class Obstacle : MonoBehaviour
 
         // Verifique se o jogador atingiu a posição vertical de saída e destrua o obstáculo
         if (transform.position.y > 2*(mainCamera.transform.position.y + mainCamera.orthographicSize))
-        //|| Mathf.Abs(transform.position.x - jogador.posicaoHorizontalSaida) < 0.01f)
+        
         {
             Destroy(this.gameObject);
         }
