@@ -8,6 +8,7 @@ TagManager:
   - "ch\xE3o"
   - obstaculo
   - armadilha
+  - pacdot
   layers:
   - Default
   - TransparentFX
