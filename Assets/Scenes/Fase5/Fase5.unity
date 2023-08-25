@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 115309675}
   m_Layer: 0
   m_Name: Blue_Pixel_Art_Desktop_Wallpaper-removebg-preview
-  m_TagString: "ch\xE3o"
+  m_TagString: barreira
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 124598108}
   m_Layer: 0
   m_Name: Blue_Pixel_Art_Desktop_Wallpaper-removebg-preview
-  m_TagString: "ch\xE3o"
+  m_TagString: barreira
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 305142621}
   m_Layer: 0
   m_Name: Honda2
-  m_TagString: Untagged
+  m_TagString: vitoria
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1247,7 +1247,7 @@ GameObject:
   - component: {fileID: 741706964}
   m_Layer: 0
   m_Name: Blue_Pixel_Art_Desktop_Wallpaper-removebg-preview
-  m_TagString: "ch\xE3o"
+  m_TagString: barreira
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1466,7 +1466,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1052603999}
-  - component: {fileID: 1052604000}
   - component: {fileID: 1052604001}
   m_Layer: 0
   m_Name: Fundos
@@ -1509,19 +1508,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1052604000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052603998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a3192eb1672f3a42bef4b8f2110f699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 5
 --- !u!212 &1052604001
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2459,7 +2445,7 @@ GameObject:
   - component: {fileID: 1862823288}
   m_Layer: 0
   m_Name: Blue_Pixel_Art_Desktop_Wallpaper-removebg-preview
-  m_TagString: "ch\xE3o"
+  m_TagString: barreira
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3111,7 +3097,7 @@ GameObject:
   - component: {fileID: 2082939972}
   m_Layer: 0
   m_Name: Blue_Pixel_Art_Desktop_Wallpaper-removebg-preview
-  m_TagString: "ch\xE3o"
+  m_TagString: barreira
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3326,6 +3312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 5
+  GameOver: {fileID: 0}
 --- !u!60 &2094578234
 PolygonCollider2D:
   m_ObjectHideFlags: 0
