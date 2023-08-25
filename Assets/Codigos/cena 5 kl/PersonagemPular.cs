@@ -16,7 +16,7 @@ public class PersonagemPular : MonoBehaviour
 
     private void Update()
     {
-        if (canJump && Input.GetKeyDown(KeyCode.Space))
+        if (canJump && Input.GetKeyDown(KeyCode.UpArrow))
         {
             Jump();
         }
@@ -34,12 +34,12 @@ public class PersonagemPular : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("barreira"))
+        if (collision.gameObject.CompareTag("chao"))
         {
             canJump = true;
         }
 
-        if (collision.gameObject.CompareTag("obstaculo"))
+        if (collision.gameObject.CompareTag("armadilha"))
         {
             GameOver.SetActive(true);
             Time.timeScale = 0;
