@@ -23,10 +23,14 @@ public class User : MonoBehaviour
     void Update()
     {
         // Movimento do jogador
-        player.velocity = new Vector2(
-            Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
-            pressionandoTeclaBaixo = Input.GetKey(KeyCode.DownArrow);
-            EstaoPressionandoTeclaBaixo();
+       float horizontalInput = Input.GetAxisRaw("Horizontal");
+        player.velocity = new Vector2(horizontalInput, 0f) * speed * Time.deltaTime;
+           
+}
+
+
+//pressionandoTeclaBaixo = Input.GetKey(KeyCode.DownArrow);
+           // EstaoPressionandoTeclaBaixo(); 
 
         // Verifique se o jogador atingiu o limite inferior da tela
          /* if (transform.position.y < limiteInferior)
@@ -39,10 +43,6 @@ public class User : MonoBehaviour
             transform.position = new Vector3(posicaoHorizontalSaida, alturaTela, transform.position.z);
         }*/
     }
-      public bool EstaoPressionandoTeclaBaixo() {
+    /*  public bool EstaoPressionandoTeclaBaixo() {
         return pressionandoTeclaBaixo;
-    }
-}
-
-
-
+    }*/

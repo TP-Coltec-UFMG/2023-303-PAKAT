@@ -9,7 +9,7 @@ public class CarrosselFundo : MonoBehaviour {
     private Vector3 posicaoInicial;
 
     // Referência ao script do jogador
-    public User user;
+    public User playerMovement;
 
     private void Awake() {
         this.posicaoInicial = this.transform.position;
@@ -20,7 +20,7 @@ public class CarrosselFundo : MonoBehaviour {
 
     void Update() {
         // Verifica se o jogador está pressionando a tecla de seta para baixo
-        bool jogadorEstaMovendo = user.EstaoPressionandoTeclaBaixo();
+        bool jogadorEstaMovendo = Input.GetKey(KeyCode.DownArrow);
 
         // Calcula o deslocamento apenas se o jogador estiver pressionando a tecla de seta para baixo
         if (jogadorEstaMovendo) {

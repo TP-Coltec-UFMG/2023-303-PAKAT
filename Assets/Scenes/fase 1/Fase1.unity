@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 5
+  playerMovement: {fileID: 0}
 --- !u!212 &263265155
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -260,7 +261,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323082195}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 046934c8c6a9413899ae2538e4edc71c, type: 3}
   m_Name: 
@@ -367,7 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046934c8c6a9413899ae2538e4edc71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 1
+  tempoParaGerar: 5
   prefabObstaculo: {fileID: 1987691346142165762, guid: 7e1c302abe347c12788c932f99925c48, type: 3}
 --- !u!4 &962776519
 Transform:
@@ -430,6 +431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 5
+  playerMovement: {fileID: 0}
 --- !u!212 &979882909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -561,12 +563,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262579115}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 046934c8c6a9413899ae2538e4edc71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 1
+  tempoParaGerar: 20
   prefabObstaculo: {fileID: 5927003296897253666, guid: d58875ef405543ec9a83deb67ff8e386, type: 3}
 --- !u!4 &1315598764 stripped
 Transform:
@@ -814,6 +816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 5
+  playerMovement: {fileID: 0}
 --- !u!212 &1743658575
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1075,6 +1078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 5
+  playerMovement: {fileID: 0}
 --- !u!1 &1945748366
 GameObject:
   m_ObjectHideFlags: 0
