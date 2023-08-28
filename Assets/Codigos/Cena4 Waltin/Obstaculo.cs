@@ -11,7 +11,7 @@ public class Obstaculo: MonoBehaviour {
     }
 
     private void Update() {
-        this.transform.Translate(Vector3.down    * this.velocidade * Time.deltaTime);
+        this.transform.Translate(Vector3.down * this.velocidade * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D outro){
