@@ -25,9 +25,11 @@ public class User : MonoBehaviour
         // Movimento do jogador
         player.velocity = new Vector2(
             Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
+            pressionandoTeclaBaixo = Input.GetKey(KeyCode.DownArrow);
+            EstaoPressionandoTeclaBaixo();
 
         // Verifique se o jogador atingiu o limite inferior da tela
-          if (transform.position.y < limiteInferior)
+         /* if (transform.position.y < limiteInferior)
         {
             posicaoHorizontalSaida = transform.position.x;
 
@@ -35,7 +37,10 @@ public class User : MonoBehaviour
 
             // Reposicione o jogador para a posição de saída do mapa, com y ajustado para o topo da tela
             transform.position = new Vector3(posicaoHorizontalSaida, alturaTela, transform.position.z);
-        }
+        }*/
+    }
+      public bool EstaoPressionandoTeclaBaixo() {
+        return pressionandoTeclaBaixo;
     }
 }
 
