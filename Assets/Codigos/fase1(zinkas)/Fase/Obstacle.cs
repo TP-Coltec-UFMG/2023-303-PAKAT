@@ -17,7 +17,12 @@ public class Obstacle : MonoBehaviour
 
     private void Update()
     {
-        this.transform.Translate(Vector3.up * this.velocidade * Time.deltaTime);
+        
+        bool jogadorEstaMovendo = Input.GetKey(KeyCode.DownArrow);
+        if (jogadorEstaMovendo) {
+            this.transform.Translate(Vector3.up * this.velocidade * Time.deltaTime);}
+        else{
+            this.transform.Translate(Vector3.up * this.velocidade/3 * Time.deltaTime);}
 
         // Verifique se o jogador atingiu a posição vertical de saída e destrua o obstáculo
         if (transform.position.y > 2*(mainCamera.transform.position.y + mainCamera.orthographicSize))
