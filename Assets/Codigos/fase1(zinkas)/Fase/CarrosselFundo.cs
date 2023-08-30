@@ -13,8 +13,8 @@ public class CarrosselFundo : MonoBehaviour {
 
     private void Awake() {
         this.posicaoInicial = this.transform.position;
-        this.tamanhoDaImagem = this.GetComponent<SpriteRenderer>().size.x;
-        float escala = this.transform.localScale.x;
+        this.tamanhoDaImagem = this.GetComponent<SpriteRenderer>().size.y;
+        float escala = this.transform.localScale.y;
         this.tamanhoDaImagem *= escala;
     }
 

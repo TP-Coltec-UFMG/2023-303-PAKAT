@@ -10,8 +10,10 @@ public class ProximaFase : MonoBehaviour
     }
     public void restartGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("clocou");
     }
     public void nextLevel() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        Debug.Log("clocou");
     }
 }
