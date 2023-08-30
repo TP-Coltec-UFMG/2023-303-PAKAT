@@ -1,22 +1,24 @@
-// Comment
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
-
+using TMPro;
 
 public class PacManMove : MonoBehaviour
-{
+{ 
   public GameObject pausaPainel;
+
+  [SerializeField] private Text score;
   private bool isPausa;
   private int totalItems;
+  [SerializeField] private int missingItems = 16;
   [SerializeField] private int collectedItems = 0;
   [SerializeField] private GameObject victoryScreen;
   public float speed = 0.4f;
   Vector2 dest = Vector2.zero;
 
 
-  // Use this for initialization
   void Start()
   {
     Time.timeScale = 1f;
@@ -24,7 +26,6 @@ public class PacManMove : MonoBehaviour
     dest = transform.position;
   }
 
-  // Update is called once per frame
   void FixedUpdate()
   {
     if (!isPausa)
@@ -55,7 +56,6 @@ public class PacManMove : MonoBehaviour
   }
   void Update() 
   {
-
     if (Input.GetKeyDown(KeyCode.Escape))
     {
       PauseScreen();
@@ -86,6 +86,7 @@ public class PacManMove : MonoBehaviour
   {
     Vector2 pos = transform.position;
     RaycastHit2D hit = Physics2D.Linecast(pos + dir, pos);
+
     return (hit.collider == GetComponent<Collider2D>());
   }
 
@@ -95,20 +96,15 @@ public class PacManMove : MonoBehaviour
     {
       collectedItems++;
       Destroy(co.gameObject);
+      missingItems--;
+      score.text = $"{missingItems}"; 
 
-      // Verificar se todos os itens foram coletados
       if (collectedItems >= totalItems)
       {
-        //AllItemsCollected();
+        Cursor.lockState = CursorLockMode.None;
         victoryScreen.SetActive(true);
         Time.timeScale = 0;
       }
-      
     }
   }
-/*
-  void AllItemsCollected()
-  {
-    victoryScreen.SetActive(true);
-  }*/
 }
