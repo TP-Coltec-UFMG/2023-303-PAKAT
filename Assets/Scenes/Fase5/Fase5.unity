@@ -152,12 +152,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ef9d6398efb2d489e056718962013a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerarArvore: 7
-  tempoParaGerarPassaro: 9
-  tempoParaGerarCacto: 11
+  tempoParaGerarArvore: 5
+  tempoParaGerarPassaro: 22
+  tempoParaGerarCacto: 17
   cacto: {fileID: 5484527453773593814, guid: 8e9645b20d25e68718361ae8e533fec7, type: 3}
   arvore: {fileID: 6705223781325868169, guid: 34761b3116686d122b55e191d9c8b3bc, type: 3}
-  passaro: {fileID: 6705223781325868169, guid: 34761b3116686d122b55e191d9c8b3bc, type: 3}
+  passaro: {fileID: 1164795317609825380, guid: c9480039bf40c77478d7033723e256cc, type: 3}
 --- !u!4 &11880112
 Transform:
   m_ObjectHideFlags: 0
@@ -166,8 +166,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11880110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.35, y: -4.65, z: 2}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalPosition: {x: 16.35, y: -4.01, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7eee01c485575344bc1acc45b69999f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 3
+  velocidade: 5.5
 --- !u!1 &288256020
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7eee01c485575344bc1acc45b69999f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 3
+  velocidade: 5.5
 --- !u!1 &410869602
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7eee01c485575344bc1acc45b69999f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 3
+  velocidade: 5.5
 --- !u!1 &531862340
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303501141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.735406, y: -4.02, z: 1.8876549}
+  m_LocalPosition: {x: 13.735406, y: -3.68, z: 1.8876549}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7eee01c485575344bc1acc45b69999f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 3
+  velocidade: 5.5
 --- !u!1 &1975681310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382d4cb89f856434ab69547bce4384d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
+  jumpForce: 7
   GameOver: {fileID: 1975681310}
 --- !u!60 &2094578234
 PolygonCollider2D:
