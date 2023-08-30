@@ -49,10 +49,14 @@ public class GeradorDeObstaculos : MonoBehaviour {
 
             // Verifica se o tempo total decorrido é maior que 60 segundos (1 minuto)
             if (tempoDecorrido > 10f) {
+                
+                
+            }
+            if (tempoDecorrido > 11f) {
                 obstaculosProntos = true;
                 GameObject.Instantiate(porteira, transform.position, Quaternion.identity);
             }
-        }
+         }
     }
 
     private void OnTriggerEnter2D(Collider2D outro) {
