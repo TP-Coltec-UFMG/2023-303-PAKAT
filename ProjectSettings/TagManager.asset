@@ -9,7 +9,7 @@ TagManager:
   - obstaculo
   - armadilha
   - vitoria
-  - Win
+  - chao
   layers:
   - Default
   - TransparentFX
