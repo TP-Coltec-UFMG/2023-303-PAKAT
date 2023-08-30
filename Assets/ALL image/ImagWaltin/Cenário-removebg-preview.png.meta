@@ -120,12 +120,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_0"
       rect:
         serializedVersion: 2
-        x: 35
-        y: 245
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 77
+        y: 221
+        width: 43
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_1"
       rect:
         serializedVersion: 2
-        x: 95
-        y: 245
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 161
+        y: 257
+        width: 49
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_2"
       rect:
         serializedVersion: 2
-        x: 155
-        y: 245
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 166
+        y: 160
+        width: 59
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_3"
       rect:
         serializedVersion: 2
-        x: 35
-        y: 185
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 325
+        y: 209
+        width: 75
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_4"
       rect:
         serializedVersion: 2
-        x: 95
-        y: 185
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 439
+        y: 209
+        width: 75
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_5"
       rect:
         serializedVersion: 2
-        x: 155
-        y: 185
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 86
+        y: 146
+        width: 53
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_6"
       rect:
         serializedVersion: 2
-        x: 215
-        y: 185
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 308
+        y: 143
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_7"
       rect:
         serializedVersion: 2
-        x: 275
-        y: 185
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 366
+        y: 142
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_8"
       rect:
         serializedVersion: 2
-        x: 335
-        y: 185
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 429
+        y: 145
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_9"
       rect:
         serializedVersion: 2
-        x: 395
-        y: 185
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 99
+        y: 98
+        width: 49
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_10"
       rect:
         serializedVersion: 2
-        x: 455
-        y: 185
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 158
+        y: 98
+        width: 49
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_11"
       rect:
         serializedVersion: 2
-        x: 35
-        y: 125
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 410
+        y: 86
+        width: 39
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -364,216 +364,6 @@ TextureImporter:
       bones: []
       spriteID: 23764785fa3b3dd7c88348746c374a91
       internalID: -674096049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_12"
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 125
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73ac212e1135cb2029f4e94640a3e9e5
-      internalID: 1377651204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_13"
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 125
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29009aa2d0afd6acd8add1c50158cf3f
-      internalID: -1974928978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_14"
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 125
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d66a33194db9b243ea6e05681b723919
-      internalID: -216367078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_15"
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 125
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02bff9d9c762205f4adc064f6b2d6ccf
-      internalID: -623187362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_16"
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 125
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f072ee9394973a7c9f7cc881df55524
-      internalID: -1723461377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_17"
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 125
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6baedbfcedc68e900a6c732e026a47a0
-      internalID: 1122866400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_18"
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 125
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2851cba279208706ebcc02c3c382ac39
-      internalID: 1044578839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_19"
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 65
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cf20195dc2fcd9f4b097a3c47bcee10
-      internalID: 142993255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_20"
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 65
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ba9859d8c15c07cda953d838e0811f4
-      internalID: 573172085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_21"
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 65
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48e31825d07a6a7f5a498155ea84dc69
-      internalID: 482568942
       vertices: []
       indices: 
       edges: []
@@ -593,17 +383,7 @@ TextureImporter:
       "Cen\xE1rio-removebg-preview_1": 586343042
       "Cen\xE1rio-removebg-preview_10": -250894003
       "Cen\xE1rio-removebg-preview_11": -674096049
-      "Cen\xE1rio-removebg-preview_12": 1377651204
-      "Cen\xE1rio-removebg-preview_13": -1974928978
-      "Cen\xE1rio-removebg-preview_14": -216367078
-      "Cen\xE1rio-removebg-preview_15": -623187362
-      "Cen\xE1rio-removebg-preview_16": -1723461377
-      "Cen\xE1rio-removebg-preview_17": 1122866400
-      "Cen\xE1rio-removebg-preview_18": 1044578839
-      "Cen\xE1rio-removebg-preview_19": 142993255
       "Cen\xE1rio-removebg-preview_2": -1000218533
-      "Cen\xE1rio-removebg-preview_20": 573172085
-      "Cen\xE1rio-removebg-preview_21": 482568942
       "Cen\xE1rio-removebg-preview_3": -1053961240
       "Cen\xE1rio-removebg-preview_4": 1209054505
       "Cen\xE1rio-removebg-preview_5": -1573959845
