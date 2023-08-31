@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Carrossel : MonoBehaviour { 
+public class RolagemFundo : MonoBehaviour { 
     [SerializeField]
     private float velocidade;
 
