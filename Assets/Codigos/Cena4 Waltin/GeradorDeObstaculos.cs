@@ -9,8 +9,9 @@ public class GeradorDeObstaculos : MonoBehaviour {
     private float cronometro2, cronometro3, cronometro4;
     [SerializeField] private GameObject arvoreE;
     [SerializeField] private GameObject arvoreC;
-    [SerializeField] private GameObject poco;
+    [SerializeField] private GameObject pedra;
     [SerializeField] private GameObject porteira;
+    [SerializeField] private GameObject next;
 
     private bool obstaculosProntos = false;
     private float tempoDecorrido = 0f; // Tempo total decorrido
@@ -38,7 +39,7 @@ public class GeradorDeObstaculos : MonoBehaviour {
                 cronometro2 = tempoParaGerar2;
             }
             if (cronometro3 < 0) {
-                GameObject.Instantiate(poco, transform.position, Quaternion.identity);
+                GameObject.Instantiate(pedra, transform.position, Quaternion.identity);
                 cronometro3 = tempoParaGerar3;
             }
 
@@ -55,6 +56,7 @@ public class GeradorDeObstaculos : MonoBehaviour {
             if (tempoDecorrido > 11f) {
                 obstaculosProntos = true;
                 GameObject.Instantiate(porteira, transform.position, Quaternion.identity);
+                GameObject.Instantiate(next, transform.position, Quaternion.identity);
             }
          }
     }

@@ -120,12 +120,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_0"
       rect:
         serializedVersion: 2
-        x: 77
-        y: 221
-        width: 43
-        height: 82
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 120
+        y: 250
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_1"
       rect:
         serializedVersion: 2
-        x: 161
-        y: 257
-        width: 49
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 120
+        y: 200
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_2"
       rect:
         serializedVersion: 2
-        x: 166
-        y: 160
-        width: 59
-        height: 76
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 320
+        y: 200
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_3"
       rect:
         serializedVersion: 2
-        x: 325
-        y: 209
-        width: 75
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 120
+        y: 150
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_4"
       rect:
         serializedVersion: 2
-        x: 439
-        y: 209
-        width: 75
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 320
+        y: 150
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_5"
       rect:
         serializedVersion: 2
-        x: 86
-        y: 146
-        width: 53
-        height: 49
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 120
+        y: 100
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_6"
       rect:
         serializedVersion: 2
-        x: 308
-        y: 143
-        width: 28
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 320
+        y: 100
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_7"
       rect:
         serializedVersion: 2
-        x: 366
-        y: 142
-        width: 31
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 120
+        y: 50
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: "Cen\xE1rio-removebg-preview_8"
       rect:
         serializedVersion: 2
-        x: 429
-        y: 145
-        width: 28
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 320
+        y: 50
+        width: 200
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -301,69 +301,6 @@ TextureImporter:
       bones: []
       spriteID: 0ad6bc0c406fb32758c493e57f13f030
       internalID: -159841686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_9"
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 98
-        width: 49
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5af2389f84b4153c8f89d1a902932bd
-      internalID: -1089023963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_10"
-      rect:
-        serializedVersion: 2
-        x: 158
-        y: 98
-        width: 49
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41b4cc4decd2ce440b962292705065ee
-      internalID: -250894003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Cen\xE1rio-removebg-preview_11"
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 86
-        width: 39
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23764785fa3b3dd7c88348746c374a91
-      internalID: -674096049
       vertices: []
       indices: 
       edges: []
@@ -381,8 +318,6 @@ TextureImporter:
     nameFileIdTable:
       "Cen\xE1rio-removebg-preview_0": 2001594447
       "Cen\xE1rio-removebg-preview_1": 586343042
-      "Cen\xE1rio-removebg-preview_10": -250894003
-      "Cen\xE1rio-removebg-preview_11": -674096049
       "Cen\xE1rio-removebg-preview_2": -1000218533
       "Cen\xE1rio-removebg-preview_3": -1053961240
       "Cen\xE1rio-removebg-preview_4": 1209054505
@@ -390,7 +325,6 @@ TextureImporter:
       "Cen\xE1rio-removebg-preview_6": -1897681991
       "Cen\xE1rio-removebg-preview_7": 713974803
       "Cen\xE1rio-removebg-preview_8": -159841686
-      "Cen\xE1rio-removebg-preview_9": -1089023963
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
