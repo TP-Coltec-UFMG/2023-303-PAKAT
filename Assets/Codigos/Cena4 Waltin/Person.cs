@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class Person : MonoBehaviour
 {
     private Rigidbody2D player;
+
+    public AnimationControllerW playerAnim;
+
+
     private float movePlayer;
     public float speed, speedWin;
     private bool restartPlayer, win, isPausa;
@@ -30,6 +34,20 @@ public class Person : MonoBehaviour
             print(win);
             movePlayer = Input.GetAxis("Horizontal");
             player.velocity = new Vector2(movePlayer * speed, player.velocity.y);
+           
+            if (movePlayer > 0f) // Andando para a direita
+                {
+                    playerAnim.PlayAnimation("WaltinDireita");
+                }
+                else if (movePlayer < 0f) // Andando para a esquerda
+                {
+                    // Ativar a animação de andar para a esquerda
+                    playerAnim.PlayAnimation("WaltinEsquerda");
+                }
+                else{
+                  playerAnim.PlayAnimation("WaltinParado");  
+                }
+                
             Restart(); 
             ProxFase();
         }

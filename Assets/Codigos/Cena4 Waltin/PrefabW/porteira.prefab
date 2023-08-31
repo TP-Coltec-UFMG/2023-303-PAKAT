@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8972355047527963999}
   - component: {fileID: 462843440125454192}
   - component: {fileID: -1323403625569127829}
+  - component: {fileID: -3899134136877837897}
   m_Layer: 0
   m_Name: porteira
   m_TagString: Win
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_Size: {x: 0.35, y: 3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &462843440125454192
@@ -129,3 +130,17 @@ PolygonCollider2D:
       - {x: -0.175, y: -1.5}
       - {x: 0.175, y: -1.5}
       - {x: 0.175, y: 1.5}
+--- !u!114 &-3899134136877837897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8972355047527963997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a87912eeb81c62ebf471cbeaa74616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 5
+  variacaoDaPosicaoX: 1
