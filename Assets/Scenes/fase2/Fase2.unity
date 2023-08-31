@@ -1977,6 +1977,7 @@ GameObject:
   - component: {fileID: 1158852615}
   - component: {fileID: 1158852614}
   - component: {fileID: 1158852616}
+  - component: {fileID: 1158852617}
   m_Layer: 0
   m_Name: pacman
   m_TagString: Untagged
@@ -2086,6 +2087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausaPainel: {fileID: 582527653}
+  PlayerAnim: {fileID: 1158852617}
   score: {fileID: 1798130610}
   missingItems: 16
   collectedItems: 0
@@ -2152,6 +2154,19 @@ PolygonCollider2D:
       - {x: 5.3125, y: -5.4375}
       - {x: 2, y: -4.9375}
       - {x: 6, y: -2.875}
+--- !u!114 &1158852617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158852610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76df978ad8b34eb3e8c42aca9900e7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1158852611}
 --- !u!1 &1208655336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2202,6 +2217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausaPainel: {fileID: 582527653}
+  PlayerAnim: {fileID: 0}
   score: {fileID: 1798130610}
   missingItems: 16
   collectedItems: 0

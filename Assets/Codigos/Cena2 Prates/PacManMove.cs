@@ -9,6 +9,8 @@ public class PacManMove : MonoBehaviour
 { 
   public GameObject pausaPainel;
 
+  [SerializeField] public AnimationControllerP PlayerAnim;
+
   [SerializeField] private Text score;
   private bool isPausa;
   private int totalItems;
@@ -34,19 +36,23 @@ public class PacManMove : MonoBehaviour
       GetComponent<Rigidbody2D>().MovePosition(p);
       if (Input.GetKey("up"))
       {
-        dest = (Vector2)transform.position + Vector2.up;
+        dest = (Vector2)transform.position + Vector2.up; 
+        PlayerAnim.PlayAnimation("PratesCima");
       }
-      if (Input.GetKey(KeyCode.DownArrow))
+      else if (Input.GetKey(KeyCode.DownArrow))
       {
         dest = (Vector2)transform.position - Vector2.up;
+        PlayerAnim.PlayAnimation("PratesBaixo");
       }
-      if (Input.GetKey(KeyCode.RightArrow))
+      else if (Input.GetKey(KeyCode.RightArrow))
       {
         dest = (Vector2)transform.position + Vector2.right;
+        PlayerAnim.PlayAnimation("PratesDir");
       }
-      if (Input.GetKey(KeyCode.LeftArrow))
+      else if (Input.GetKey(KeyCode.LeftArrow))
       {
         dest = (Vector2)transform.position - Vector2.right;
+        PlayerAnim.PlayAnimation("PratesEsq");
       }
       Vector2 dir = dest - (Vector2)transform.position;
       GetComponent<Animator>().SetFloat("DirX", dir.x);
@@ -108,3 +114,5 @@ public class PacManMove : MonoBehaviour
     }
   }
 }
+
+                
