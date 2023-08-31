@@ -49,10 +49,10 @@ public class User : MonoBehaviour
                     
                 
 
-            if (Input.GetKeyDown(KeyCode.Escape)) {
-            PauseScreen();
+            
         }  
-        
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            PauseScreen();
         }    
            
 }
