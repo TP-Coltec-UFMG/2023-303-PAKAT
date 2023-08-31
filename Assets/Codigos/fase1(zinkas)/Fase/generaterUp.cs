@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class generater : MonoBehaviour
+public class generaterUp : MonoBehaviour
 {
     [SerializeField] private float tempoParaGerar;
     [SerializeField] private GameObject prefabObstaculo;
@@ -18,7 +18,7 @@ public class generater : MonoBehaviour
         this.cronometro -= Time.deltaTime;
         if (this.cronometro < 0)
         {
-            Vector3 posicaoSpawn = new Vector3(transform.position.x, -25, transform.position.z);
+            Vector3 posicaoSpawn = new Vector3(transform.position.x, 20, transform.position.z);
             GameObject novoObstaculo = GameObject.Instantiate(prefabObstaculo, posicaoSpawn, Quaternion.identity);
             this.cronometro = this.tempoParaGerar;
         }

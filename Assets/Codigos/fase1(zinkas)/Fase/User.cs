@@ -10,6 +10,10 @@ public class User : MonoBehaviour
     //animador 
     [SerializeField] public AnimationController playerAnim;
 
+     private bool restartPlayer, win;
+    public GameObject panelWin;
+    public GameObject GameOver; 
+    private GameObject inicialPos;
     private float alturaTela;
 
     private bool  isPausa;
@@ -20,9 +24,12 @@ public class User : MonoBehaviour
 
     void Start()
     {
-        
+        Time.timeScale = 1f;
         player = GetComponent<Rigidbody2D>();
         alturaTela = Camera.main.orthographicSize;
+        inicialPos = GameObject.Find("inicialPos");
+        win = false;
+        
     }
 
     void Update()
@@ -45,7 +52,8 @@ public class User : MonoBehaviour
                 else{
                   playerAnim.PlayAnimation("Parado");  
                 }
-                
+             Restart();
+            ProxFase();   
                     
                 
 
@@ -73,7 +81,67 @@ void PauseScreen() {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true; 
         }
+  
+}
+ /* private void OnTriggerEnter2D(Collider2D col) {
+        if (col.CompareTag("armadilha")==true) {
+            restartPlayer = true;
+            Debug.Log("armadilha");
+        }
+        if (col.CompareTag("vitoria")==true) {
+            win = true;
+            Debug.Log(" vitoria");
+        }
+    }*/
+private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+        if (collision.gameObject.CompareTag("armadilha"))
+        {
+            GameOver.SetActive(true);
+            Time.timeScale = 0;
+        }
+        if (collision.gameObject.CompareTag("vitoria"))
+        {
+            win = true;
+            Debug.Log(" vitoria");
+
+        }
+
     }
+ 
+    private void Restart() {
+        if (restartPlayer == true) {
+            player.transform.position = new Vector2(inicialPos.transform.position.x, inicialPos.transform.position.y);
+            GameOver.SetActive(true);
+            Time.timeScale = 0;
+            restartPlayer = false;
+        }
+    }
+
+    private void ProxFase () {
+        if (win == true) {
+            player.velocity = new Vector2(0, player.velocity.y);
+            panelWin.SetActive(true);
+            Time.timeScale = 0;
+            win = false;
+            //panelWin.transform.position = Vector2.MoveTowards(panelwin.transform.position, cameraPos.transform.position, speedwin * Time.deltaTime);
+        }
+    }
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 //pressionandoTeclaBaixo = Input.GetKey(KeyCode.DownArrow);
            // EstaoPressionandoTeclaBaixo(); 
@@ -88,7 +156,7 @@ void PauseScreen() {
             // Reposicione o jogador para a posição de saída do mapa, com y ajustado para o topo da tela
             transform.position = new Vector3(posicaoHorizontalSaida, alturaTela, transform.position.z);
         }*/
-    }
+    
     /*  public bool EstaoPressionandoTeclaBaixo() {
         return pressionandoTeclaBaixo;
     }*/
