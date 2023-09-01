@@ -5,8 +5,10 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     [SerializeField] private float velocidade = 5f;
-    [SerializeField] private float variacaoDaPosicaoXEsquerda = -29f; // Variação na posição horizontal
-    [SerializeField] private float variacaoDaPosicaoXDireita = 4f;
+
+    //meio eh o 12.9
+    [SerializeField] private float variacaoDaPosicaoXEsquerda = -15.9f; // Variação na posição horizontal
+    [SerializeField] private float variacaoDaPosicaoXDireita = 15.9f;
     private User jogador; // Referência ao script do jogador
     private Camera mainCamera; // Referência à câmera que segue o jogador
 

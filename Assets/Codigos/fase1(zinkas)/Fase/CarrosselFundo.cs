@@ -25,7 +25,7 @@ public class CarrosselFundo : MonoBehaviour {
         // Calcula o deslocamento apenas se o jogador estiver pressionando a tecla de seta para baixo
         if (jogadorEstaMovendo) {
             float deslocamento = Mathf.Repeat(this.velocidade * Time.time, this.tamanhoDaImagem);
-            this.transform.position = this.posicaoInicial + Vector3.down * deslocamento;
+            this.transform.position = this.posicaoInicial + Vector3.up * deslocamento;
         }
     }
 }

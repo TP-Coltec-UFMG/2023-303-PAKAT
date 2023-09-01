@@ -42,12 +42,12 @@ public class User : MonoBehaviour
            
             if (horizontalInput > 0f) // Andando para a direita
                 {
-                    playerAnim.PlayAnimation("andando");
+                    playerAnim.PlayAnimation("Direita");
                 }
                 else if (horizontalInput < 0f) // Andando para a esquerda
                 {
                     // Ativar a animação de andar para a esquerda
-                    playerAnim.PlayAnimation("esquerda");
+                    playerAnim.PlayAnimation("Esquerda");
                 }
                 else{
                   playerAnim.PlayAnimation("Parado");  

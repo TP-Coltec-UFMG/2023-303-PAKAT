@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: esquerda
+  m_Name: Direita
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1373113182, guid: 1bb3acfcf640c48aebf5932d1e7396e1, type: 3}
+      value: {fileID: -1692240240, guid: 12d9f49b864af3f2cacd139c9a0273f3, type: 3}
     - time: 0.083333336
-      value: {fileID: -1833357063, guid: 1bb3acfcf640c48aebf5932d1e7396e1, type: 3}
+      value: {fileID: 77377729, guid: 12d9f49b864af3f2cacd139c9a0273f3, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,8 +42,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1373113182, guid: 1bb3acfcf640c48aebf5932d1e7396e1, type: 3}
-    - {fileID: -1833357063, guid: 1bb3acfcf640c48aebf5932d1e7396e1, type: 3}
+    - {fileID: -1692240240, guid: 12d9f49b864af3f2cacd139c9a0273f3, type: 3}
+    - {fileID: 77377729, guid: 12d9f49b864af3f2cacd139c9a0273f3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
