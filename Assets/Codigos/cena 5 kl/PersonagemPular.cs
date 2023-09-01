@@ -9,16 +9,48 @@ public class PersonagemPular : MonoBehaviour
     private bool canJump = true;
     private Rigidbody2D rb;
     [SerializeField] GameObject GameOver;
+    private bool isPausa;
+    public GameObject pausaPainel;
+
     private void Start()
     {
+        Time.timeScale = 1f;
         rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        if (canJump && Input.GetKeyDown(KeyCode.UpArrow))
+        if (!isPausa)
         {
-            Jump();
+            if (canJump && Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                Jump();
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseScreen();
+        }
+    }
+
+    void PauseScreen()
+    {
+
+        if (isPausa)
+        {
+            isPausa = false;
+            Time.timeScale = 1f;
+            pausaPainel.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        else
+        {
+            isPausa = true;
+            Time.timeScale = 0f;
+            pausaPainel.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 
@@ -47,6 +79,7 @@ public class PersonagemPular : MonoBehaviour
         if (collision.gameObject.CompareTag("vitoria"))
         {
             SceneManager.LoadScene("CenaFinal");
+            Time.timeScale = 0;
         }
 
     }
