@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/CutScenes/AnimacaoInicial.unity
     guid: 80a11c2f1a1de96538b4ae8359303b3d
   - enabled: 1
-    path: Assets/Scenes/CutScenes/Animacaoinicial2.unity
+    path: Assets/Scenes/CutScenes/AnimHondaCorre.unity
     guid: 0a43985f36e3a9c12aff96146bfb0460
   - enabled: 1
     path: Assets/Scenes/Menu/MenuFases.unity
