@@ -665,7 +665,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Animacaoinicial2
+          m_StringArgument: AnimHondaCorre
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &408998495
@@ -2183,6 +2183,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1774371783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7539400232200892784, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_Name
+      value: Dialogo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.026514
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400232200892791, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
 --- !u!1 &1826067562
 GameObject:
   m_ObjectHideFlags: 0
