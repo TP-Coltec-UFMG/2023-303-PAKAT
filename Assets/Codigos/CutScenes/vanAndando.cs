@@ -12,7 +12,6 @@ public class vanAndando : MonoBehaviour
     {
         
     }
-
   
     void Update()
     {
@@ -29,7 +28,6 @@ public class vanAndando : MonoBehaviour
     public void continuar(string nomedaCena){
         SceneManager.LoadScene(nomedaCena);
     }
-
 }
 
 
