@@ -16,6 +16,7 @@ public class CarrosselFundo : MonoBehaviour {
         this.tamanhoDaImagem = this.GetComponent<SpriteRenderer>().size.y;
         float escala = this.transform.localScale.y;
         this.tamanhoDaImagem *= escala;
+        velocidade *= Dificuldade.dific;
     }
 
     void Update() {

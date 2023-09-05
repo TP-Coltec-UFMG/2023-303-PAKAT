@@ -22,6 +22,7 @@ public class InvertedObstacle : MonoBehaviour
             transform.position.z);
 
         transform.position = posicaoInicial;
+        velocidade *= Dificuldade.dific;
     }
 
     private void Update()
