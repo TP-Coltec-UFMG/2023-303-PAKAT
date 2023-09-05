@@ -327,6 +327,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5045940932951414968, guid: 92376aee42dd86becae6ba36cf4985a0, type: 3}
   m_PrefabInstance: {fileID: 412334542}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &340945763 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+  m_PrefabInstance: {fileID: 2179476109230838087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &412334542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -575,6 +580,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoPontuacao: {fileID: 2102765492}
+--- !u!1 &700094439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 700094441}
+  - component: {fileID: 700094440}
+  m_Layer: 0
+  m_Name: 'GeradorVitoria '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &700094440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700094439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdba04342308a81cf8a063815757087d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempoParaGerar: 63
+  manualDeInstrucoes: {fileID: 2179476108900432423, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+--- !u!4 &700094441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700094439}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.73, y: 4.45, z: 0.0018564798}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1935558854}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724480994
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +682,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1935558854}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &764887922
 GameObject:
@@ -1518,37 +1569,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1595592787
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1595592788}
-  m_Layer: 0
-  m_Name: vitoria
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1595592788
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595592787}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.516273, y: -6.549422, z: -0.12543702}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1610540641
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,6 +1995,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 700094441}
+  - {fileID: 340945763}
   - {fileID: 560731023}
   - {fileID: 724480996}
   - {fileID: 2125763080}
@@ -2262,7 +2284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.69500005}
-  m_AnchoredPosition: {x: 0, y: -50.5}
+  m_AnchoredPosition: {x: 114, y: -50.5}
   m_SizeDelta: {x: 200, y: -51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2125539374
@@ -2393,7 +2415,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1935558854}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2125763081
 MonoBehaviour:
@@ -2407,13 +2429,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdba04342308a81cf8a063815757087d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 1
+  tempoParaGerar: 2
   manualDeInstrucoes: {fileID: 5531186986425570274, guid: 324b39fab9d7c98d186fc2da16585e64, type: 3}
 --- !u!224 &2144716246 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5740798826487876131, guid: 924357f83e0a2924abb626188e42ff00, type: 3}
   m_PrefabInstance: {fileID: 1122535710}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2179476109230838087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1935558854}
+    m_Modifications:
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -34.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.008038126
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432420, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179476108900432423, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
+      propertyPath: m_Name
+      value: Vitoria
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 513fe1c3e2c867bb291e85992cb6a709, type: 3}
 --- !u!1001 &5531186985907306607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2427,11 +2506,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5531186986425570272, guid: 324b39fab9d7c98d186fc2da16585e64, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5531186986425570272, guid: 324b39fab9d7c98d186fc2da16585e64, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.788349
+      value: -7.84
       objectReference: {fileID: 0}
     - target: {fileID: 5531186986425570272, guid: 324b39fab9d7c98d186fc2da16585e64, type: 3}
       propertyPath: m_LocalPosition.y
