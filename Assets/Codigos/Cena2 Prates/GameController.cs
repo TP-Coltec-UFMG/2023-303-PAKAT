@@ -11,9 +11,9 @@ public class GameController : MonoBehaviour
     public float timeCount;
     public bool timeOver = false;
 
-    // public void RefreshScreen()
-    // {
-    // }
+    void Start(){
+        timeCount *= 1;   
+    }
 
     private void Update()
     {
