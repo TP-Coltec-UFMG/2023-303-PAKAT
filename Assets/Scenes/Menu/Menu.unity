@@ -506,7 +506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.005493164, y: 11.829987}
+  m_AnchoredPosition: {x: 0.005493164, y: 11.829956}
   m_SizeDelta: {x: 0.011, y: 67.3749}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &110696347
@@ -684,6 +684,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128898063}
   m_CullTransparentMesh: 1
+--- !u!1 &175932005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 175932007}
+  - component: {fileID: 175932006}
+  m_Layer: 0
+  m_Name: Daltonismo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &175932006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175932005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c7a1ea57984b64c9bde4e8949df3a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+--- !u!4 &175932007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175932005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7508454, y: 2.1313367, z: 1094.7382}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182383686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1953,7 +1998,7 @@ GameObject:
   - component: {fileID: 339395625}
   - component: {fileID: 339395624}
   m_Layer: 5
-  m_Name: AtivarDaltonismoTricromatic
+  m_Name: SemModoDaltonismo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2023,7 +2068,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 339395625}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942550000}
+        m_TargetAssemblyTypeName: ColorblindFilters, Assembly-CSharp
+        m_MethodName: ativarNone
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &339395625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2594,6 +2651,67 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 4499486277022089344, guid: 2e8995b7426d7b5369645b1c3ca7759e, type: 3}
   m_PrefabInstance: {fileID: 4499486276493832365}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &627622877
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6981715396104882725, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_Name
+      value: Filtro
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882726, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1640369160}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7508454
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1313367
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1094.7382
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981715396104882727, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 75d99704b49098d49880f8d3da001930, type: 3}
 --- !u!1 &640147629
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,6 +3878,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892122729}
   m_CullTransparentMesh: 1
+--- !u!114 &942550000 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6981715396104882726, guid: 75d99704b49098d49880f8d3da001930, type: 3}
+  m_PrefabInstance: {fileID: 627622877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c7a1ea57984b64c9bde4e8949df3a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1003406550
 GameObject:
   m_ObjectHideFlags: 0
@@ -5359,7 +5488,7 @@ GameObject:
   - component: {fileID: 1617879137}
   - component: {fileID: 1617879136}
   m_Layer: 5
-  m_Name: AtivarDaltonismoDicromatico
+  m_Name: AtivarProtanopia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5429,7 +5558,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1617879137}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942550000}
+        m_TargetAssemblyTypeName: ColorblindFilters, Assembly-CSharp
+        m_MethodName: ativarProtanopia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1617879137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5591,7 +5732,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1640369159}
   - component: {fileID: 1640369158}
+  - component: {fileID: 1640369160}
   - component: {fileID: 1640369157}
+  - component: {fileID: 1640369161}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5665,6 +5808,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1640369160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640369156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 555e06e75168e3f40b61dc9a6f2221bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filter: {fileID: 0}
+--- !u!114 &1640369161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640369156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ef3d3a90250f940860f4733f93ce6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 0
+  showDifference: 0
+  filter: {fileID: 1640369161}
 --- !u!1 &1659330248
 GameObject:
   m_ObjectHideFlags: 0
@@ -6214,7 +6385,7 @@ GameObject:
   - component: {fileID: 2005106656}
   - component: {fileID: 2005106655}
   m_Layer: 5
-  m_Name: AtivarDaltonismoAcromatico
+  m_Name: AtivarDeuteranotopia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6284,7 +6455,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2005106656}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942550000}
+        m_TargetAssemblyTypeName: ColorblindFilters, Assembly-CSharp
+        m_MethodName: ativarDeuteranotopia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2005106656
 MonoBehaviour:
   m_ObjectHideFlags: 0
