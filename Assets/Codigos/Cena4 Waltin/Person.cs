@@ -11,7 +11,7 @@ public class Person : MonoBehaviour
 
 
     private float movePlayer;
-    public float speed, speedWin;
+    public float speed;
     private bool restartPlayer, win, isPausa;
     private GameObject inicialPos, cameraPos;
     public GameObject panelWin;

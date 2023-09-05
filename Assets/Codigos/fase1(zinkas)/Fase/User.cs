@@ -12,8 +12,7 @@ public class User : MonoBehaviour
     [SerializeField] public AnimationController playerAnim;
 
     public static int fase = 1;
-
-     private bool restartPlayer, win;
+    private bool restartPlayer, win;
     public GameObject panelWin;
     public GameObject GameOver; 
     private GameObject inicialPos;
