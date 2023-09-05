@@ -2538,7 +2538,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 549633585}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1993588972}
+        m_TargetAssemblyTypeName: Dificuldade, Assembly-CSharp
+        m_MethodName: Dificil
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &549633585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3288,7 +3300,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 841496861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1993588972}
+        m_TargetAssemblyTypeName: Dificuldade, Assembly-CSharp
+        m_MethodName: Facil
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &841496861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4289,7 +4313,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1242255855}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1993588972}
+        m_TargetAssemblyTypeName: Dificuldade, Assembly-CSharp
+        m_MethodName: Medio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1242255855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4793,7 +4829,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7526894315792876315, guid: 1ee89d147d5089b30982db85e8259a41, type: 3}
   m_PrefabInstance: {fileID: 7526894314944497569}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1993588971}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10769207eb9b2ee4b931f48072df1de2, type: 3}
@@ -4804,7 +4840,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7526894315792876317, guid: 1ee89d147d5089b30982db85e8259a41, type: 3}
   m_PrefabInstance: {fileID: 7526894314944497569}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1993588971}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74d9e8ed9a91d3bd792a8477f2d14f58, type: 3}
@@ -4815,7 +4851,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7526894315792876316, guid: 1ee89d147d5089b30982db85e8259a41, type: 3}
   m_PrefabInstance: {fileID: 7526894314944497569}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1993588971}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d96bdd0102ef008c48819bfd9b8c9d9c, type: 3}
@@ -6148,6 +6184,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1993588971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7526894315792876312, guid: 1ee89d147d5089b30982db85e8259a41, type: 3}
+  m_PrefabInstance: {fileID: 7526894314944497569}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1993588972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993588971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6bed64e0d83450018d2d54e8acfabbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2005106653
 GameObject:
   m_ObjectHideFlags: 0
