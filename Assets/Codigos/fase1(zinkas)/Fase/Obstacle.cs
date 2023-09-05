@@ -31,7 +31,7 @@ public class Obstacle : MonoBehaviour
         bool jogadorEstaMovendo = Input.GetKey(KeyCode.DownArrow);
         if (jogadorEstaMovendo)
         {
-            this.transform.Translate(Vector3.up * (this.velocidade *1.5) * Time.deltaTime);
+            this.transform.Translate(Vector3.up * (this.velocidade * 2) * Time.deltaTime);
         }
         else
         {
