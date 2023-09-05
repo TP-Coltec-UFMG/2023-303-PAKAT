@@ -16,11 +16,11 @@ public class User : MonoBehaviour
     public GameObject panelWin;
     public GameObject GameOver; 
     private GameObject inicialPos;
-    private float alturaTela;
+   // private float alturaTela;
 
     private bool  isPausa;
     public GameObject pausaPainel; 
-    public float posicaoHorizontalSaida; // Armazena a posição horizontal de saída
+    
    
     
 
@@ -28,7 +28,7 @@ public class User : MonoBehaviour
     {
         Time.timeScale = 1f;
         player = GetComponent<Rigidbody2D>();
-        alturaTela = Camera.main.orthographicSize;
+        //alturaTela = Camera.main.orthographicSize;
         inicialPos = GameObject.Find("inicialPos");
         win = false;
         
