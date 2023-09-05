@@ -3147,8 +3147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046934c8c6a9413899ae2538e4edc71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 5
-  prefabObstaculo: {fileID: 3099349581129296844, guid: cb48cdba17f130696b87efef3a506d65, type: 3}
+  tempoParaGerar: 10
+  prefabObstaculo: {fileID: 2009326478953418669, guid: cb48cdba17f130696b87efef3a506d65, type: 3}
 --- !u!1 &1544818421
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,7 +4593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2009326478777845923, guid: cb48cdba17f130696b87efef3a506d65, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -26.5
+      value: 37.8
       objectReference: {fileID: 0}
     - target: {fileID: 2009326478777845923, guid: cb48cdba17f130696b87efef3a506d65, type: 3}
       propertyPath: m_LocalPosition.z
