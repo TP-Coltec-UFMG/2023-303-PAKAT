@@ -12,6 +12,7 @@ public class ObstaculoTm: MonoBehaviour {
 
     private void Awake(){
         this.transform.Translate(Vector3.up * Random.Range(-variacaoDaPosicaoY, variacaoDaPosicaoY));
+        velocidade *= Dificuldade.dific;
     }
 
     private void Start(){
