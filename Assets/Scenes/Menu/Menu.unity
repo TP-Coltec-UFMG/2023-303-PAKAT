@@ -3108,8 +3108,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -100, y: 83}
-  m_SizeDelta: {x: 120, y: 120}
+  m_AnchoredPosition: {x: -88, y: 920}
+  m_SizeDelta: {x: 214.22, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &835686656
 MonoBehaviour:
@@ -3187,7 +3187,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fce7d2c6a280e9b7e84da70052134915, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f6d1ec08548f69186846872e6b164896, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4593,7 +4593,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: AnimacaoInicial
+          m_StringArgument: AnimInicial
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!114 &1321994999
@@ -6624,5 +6624,13 @@ PrefabInstance:
       propertyPath: fundoMusical
       value: 
       objectReference: {fileID: 596471853}
+    - target: {fileID: 7526894315792876317, guid: 1ee89d147d5089b30982db85e8259a41, type: 3}
+      propertyPath: somLigadoSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6d1ec08548f69186846872e6b164896, type: 3}
+    - target: {fileID: 7526894315792876317, guid: 1ee89d147d5089b30982db85e8259a41, type: 3}
+      propertyPath: somDesligadoSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 600499edf945dfbe0b186875196e3449, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ee89d147d5089b30982db85e8259a41, type: 3}

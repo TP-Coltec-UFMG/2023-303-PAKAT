@@ -1043,6 +1043,10 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: -107.1485
       objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7539400231569492314, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -71.3
