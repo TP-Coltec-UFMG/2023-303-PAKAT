@@ -29,7 +29,7 @@ public class Aviao : MonoBehaviour {
 
     private void Update () { 
         if (!isPausa) {
-        if(Input.GetButtonDown("Fire1")){
+        if(Input.GetKeyDown(KeyCode.UpArrow)){
             this.Impulsionar();
             Restart();
             ProxFase(); 

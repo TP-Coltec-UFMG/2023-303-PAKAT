@@ -10,7 +10,7 @@ public class GeradorDeObstaculosTm : MonoBehaviour {
 
     private void Awake()
     {
-        this.tempoParaGerar *= Dificuldade.dific;
+        //this.tempoParaGerar *= Dificuldade.dific;
         this.cronometro = this.tempoParaGerar;
     }
     void Update () {
