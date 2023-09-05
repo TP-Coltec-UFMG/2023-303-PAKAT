@@ -11,13 +11,13 @@ public class GameController : MonoBehaviour
     public float timeCount;
     public bool timeOver = false;
 
-    public void RefreshScreen()
-    {
-        timeText.text = timeCount.ToString("F0");
-    }
+    // public void RefreshScreen()
+    // {
+    // }
 
     private void Update()
     {
+        timeText.text = "Tempo: " + timeCount.ToString("F0");
         TimeCount();
     }
 
@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour
         if (!timeOver && timeCount > 0)
         {
             timeCount -= Time.deltaTime;
-            RefreshScreen();
+            //RefreshScreen();
             timeOver = true;
         }
 
