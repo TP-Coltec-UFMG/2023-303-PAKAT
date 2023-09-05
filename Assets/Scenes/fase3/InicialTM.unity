@@ -229,7 +229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.data[0]
@@ -261,7 +261,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.data[7]
-      value: Boa sorte
+      value: para dar pausa e voltar ao jogo aperte esc
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[8]
+      value: 'Boa sorte e bom jogo '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[9]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231569492314, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: m_SizeDelta.x
