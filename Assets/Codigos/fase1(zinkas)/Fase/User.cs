@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class User : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class User : MonoBehaviour
 
     //animador 
     [SerializeField] public AnimationController playerAnim;
+
+    public static int fase = 1;
 
      private bool restartPlayer, win;
     public GameObject panelWin;
@@ -126,6 +129,10 @@ private void OnCollisionEnter2D(Collision2D collision)
             Time.timeScale = 0;
             win = false;
             //panelWin.transform.position = Vector2.MoveTowards(panelwin.transform.position, cameraPos.transform.position, speedwin * Time.deltaTime);
+            if (SceneManager.GetActiveScene().buildIndex> fase) {
+                fase = SceneManager.GetActiveScene().buildIndex;
+                PlayerPrefs.Save();
+            }
         }
     }
     

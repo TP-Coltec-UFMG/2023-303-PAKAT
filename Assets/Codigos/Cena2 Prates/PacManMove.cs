@@ -110,6 +110,10 @@ public class PacManMove : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         victoryScreen.SetActive(true);
         Time.timeScale = 0;
+        if (SceneManager.GetActiveScene().buildIndex>PlayerPrefs.GetInt("faseCompletada")) {
+                PlayerPrefs.SetInt("faseCompletada", SceneManager.GetActiveScene().buildIndex);
+                PlayerPrefs.Save();
+        }
       }
     }
   }
