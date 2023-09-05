@@ -7,20 +7,26 @@ public class Aviao : MonoBehaviour {
     [SerializeField] private float forca;
     private Diretor diretor;
     private Vector3 posicaoInicial;
+    private bool  isPausa;
+    public GameObject pausaPainel; 
 
-    private void Awake(){
+    private void Start(){
         this.posicaoInicial = this.transform.position;
         this.fisica = this.GetComponent<Rigidbody2D>();
     }
 
-    private void Start(){
-        this.diretor = GameObject.FindObjectOfType<Diretor>();
-    }
+  
 
     private void Update () { 
+        if (!isPausa) {
         if(Input.GetButtonDown("Fire1")){
             this.Impulsionar();
         }
+        }
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            PauseScreen();
+        } 
+
     }
 
     public void Reiniciar(){
@@ -38,5 +44,22 @@ public class Aviao : MonoBehaviour {
         this.diretor.FinalizarJogo();
     }
 
-
+void PauseScreen() {
+        
+        if (isPausa) {
+            isPausa = false;
+            Time.timeScale = 1f;
+            pausaPainel.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false; 
+        }
+        else {
+            isPausa = true;
+            Time.timeScale = 0f; 
+            pausaPainel.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true; 
+        }
+  
+}
 }

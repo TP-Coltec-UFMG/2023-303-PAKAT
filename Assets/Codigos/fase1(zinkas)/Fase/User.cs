@@ -18,7 +18,7 @@ public class User : MonoBehaviour
 
     private bool  isPausa;
     public GameObject pausaPainel; 
-    public float posicaoHorizontalSaida; // Armazena a posição horizontal de saída
+    
    
     
 
