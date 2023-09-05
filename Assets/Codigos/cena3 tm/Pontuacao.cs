@@ -7,17 +7,17 @@ using TMPro;
 public class Pontuacao : MonoBehaviour {
     private int pontos;
     [SerializeField] private TextMeshProUGUI textoPontuacao;
-    private AudioSource audioPontuacao;
+   // private AudioSource audioPontuacao;
 
     private void Awake(){
-       this.audioPontuacao = this.GetComponent<AudioSource>();
+       //this.audioPontuacao = this.GetComponent<AudioSource>();
     }
 
     public void AdicionarPontos()
     {
         this.pontos++;
         this.textoPontuacao.text = this.pontos.ToString();
-        this.audioPontuacao.Play();
+       // this.audioPontuacao.Play();
     } 
 
     public void Reiniciar(){
