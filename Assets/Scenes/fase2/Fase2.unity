@@ -808,7 +808,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7988705944677495170, guid: 3ec1cf11bd3d3d0c4ac8b943321ef8f9, type: 3}
   m_PrefabInstance: {fileID: 7988705945195390315}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 655286291}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d96bdd0102ef008c48819bfd9b8c9d9c, type: 3}
@@ -960,6 +960,11 @@ PolygonCollider2D:
       - {x: 0.235, y: -1.115}
       - {x: 0.275, y: -1.095}
       - {x: 0.355, y: -1.015}
+--- !u!1 &655286291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7988705944677495171, guid: 3ec1cf11bd3d3d0c4ac8b943321ef8f9, type: 3}
+  m_PrefabInstance: {fileID: 7988705945195390315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &711827156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5193,7 +5198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ac8ee34e78bcc3ed9aad50bee0421a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  victoryScreen: {fileID: 0}
+  victoryScreen: {fileID: 655286291}
   timeText: {fileID: 458644351}
   timeCount: 120
   timeOver: 0
