@@ -334,7 +334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105869568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.650055, y: -3.8500104, z: 0}
+  m_LocalPosition: {x: -3.22, y: -3.8500104, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -461,6 +461,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &356043830 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7988705944677495170, guid: 3ec1cf11bd3d3d0c4ac8b943321ef8f9, type: 3}
+  m_PrefabInstance: {fileID: 1006024975}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96bdd0102ef008c48819bfd9b8c9d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &356680386
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,9 +667,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 264805688}
-        m_TargetAssemblyTypeName: vanAndando, Assembly-CSharp
-        m_MethodName: continuar
+      - m_Target: {fileID: 356043830}
+        m_TargetAssemblyTypeName: ProximaFase, Assembly-CSharp
+        m_MethodName: loadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1462,15 +1473,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7988705944677495169, guid: 3ec1cf11bd3d3d0c4ac8b943321ef8f9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7988705944677495169, guid: 3ec1cf11bd3d3d0c4ac8b943321ef8f9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7988705944677495169, guid: 3ec1cf11bd3d3d0c4ac8b943321ef8f9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7988705944677495169, guid: 3ec1cf11bd3d3d0c4ac8b943321ef8f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1517,7 +1528,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100742306}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.589998, y: 3.91, z: -10}
+  m_LocalPosition: {x: 8.089998, y: 3.91, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2190,6 +2201,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7539400231427446859, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[0]
+      value: Me perdi de todos, onde sera que eles estao? Que pessoal rapido em
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231569492314, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 11.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231569492314, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 47.3
+      objectReference: {fileID: 0}
     - target: {fileID: 7539400232200892784, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: m_Name
       value: Dialogo
