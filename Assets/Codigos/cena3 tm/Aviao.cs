@@ -23,6 +23,8 @@ public class Aviao : MonoBehaviour {
         player = GetComponent<Rigidbody2D>();
         inicialPos = GameObject.Find("inicialPos");
         win = false;
+         if (Dificuldade.dific != 0){
+        velocidade *= Dificuldade.dific;}
     }
 
   
