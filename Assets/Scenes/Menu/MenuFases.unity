@@ -1299,7 +1299,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: inicial zinkas
+          m_StringArgument: Cena tutorial
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1063043010
@@ -1691,7 +1691,7 @@ GameObject:
   - component: {fileID: 1511803718}
   - component: {fileID: 1511803717}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Fases
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1982,7 +1982,7 @@ GameObject:
   - component: {fileID: 1774115172}
   - component: {fileID: 1774115171}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: MenuFases
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2081,11 +2081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64c9a2dfd2d665135b9fbb22a1302df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botoes:
-  - {fileID: 889196054}
-  - {fileID: 2095191299}
-  - {fileID: 67346625}
-  - {fileID: 636185451}
 --- !u!4 &1828415715
 Transform:
   m_ObjectHideFlags: 0
@@ -2238,7 +2233,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Fase3
+          m_StringArgument: InicialTM
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2095191300
