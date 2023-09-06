@@ -37,8 +37,8 @@ Nesse cenário uma tela de configurações é aberta e nela existem as seguintes
   ## CutScenes
 Essas são cenas introdutória do nosso game, na primeira há uma cena em que uma van anda por um cenário inicial, e após isso aparece uma tela preta escrita algumas horas depois, já na segunda os 6 personagens do jogo são apresentados e andam para a direita, a segunda cena vai ter uma pequena legenda que ainda não foi implementada 
 
-![cenaNaVan](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/Assets/Scenes/Cutscenes/Animinicialunio)
-![CarregamentoAlgumasHoras](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/algumasHoras.png)
+![cenaNaVan](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/Animinicialunio.png)
+![AlgumasHoras](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/AlgumasHoras.png)
 ![cenaAndando](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/cenaAndando.png)
 
 ## Menu das Fases 
