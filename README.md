@@ -4,7 +4,7 @@ Jogo criado para o trabalho de Unity de Tecnologias de Programação
 
 ## Menu Inicial 
 
-Nosso jogo começa com um menu, que tem como tela de fundo um possível cenário do jogo, que vai ser sobre trekking. Nesse cenário se encontram 5 personagens que representam os 5 criadores do jogo (que possivelmente vão estar dentro do jogo também).  
+Nosso jogo começa com um menu, que tem como tela de fundo um possível cenário do jogo, que vai ser sobre trekking. Nesse cenário se encontram 5 personagens que representam os 5 criadores do jogo (que são os personagens do jogo também).  
 No Menu existem 3 opções:  
   Jogar - entra no jogo  
   Ajustes - entra em outra tela com configurações (vai ser explicada depois)  
@@ -12,14 +12,13 @@ No Menu existem 3 opções:
  
 ![menuPrincipal](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuPrincipal.png)
 
-## Ajustes 
+## Ajustes e Acessibilidade
 
 Nesse cenário uma tela de configurações é aberta e nela existem as seguintes opções:
   Modo daltonismo: coloca a configuração visual do jogo de acordo com o tipo de daltonismo do usuário, sendo acromático, dicromático ou tricomático.  
   Dificuldade: Define a dificuldade do jogo em medio difícil e fácil   
   Volume: barra de arrastar que aumenta ou diminiu o volume  
   Contraste: Muda o contraste do jogo, deixando mais claro ou escuro  
-  Fonte: Muda o tamanho das fontes deixando as mesmas maiores para pessoas que enxergam mal.  
   Voltar: retorna a tela inicial
   ![menuAjustes](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuAjuste.png)
 
@@ -27,7 +26,7 @@ Nesse cenário uma tela de configurações é aberta e nela existem as seguintes
 Essas são cenas introdutória do nosso game, na primeira há uma cena em que uma van anda por um cenário inicial, e após isso aparece uma tela preta escrita algumas horas depois, já na segunda os 6 personagens do jogo são apresentados e andam para a direita, a segunda cena vai ter uma pequena legenda que ainda não foi implementada 
 ## scripts 
 
-![cenaNaVan](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/cena.png)
+![cenaNaVan](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/Assets/Scenes/Cutscenes/Animinicialunio)
 ![CarregamentoAlgumasHoras](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/algumasHoras.png)
 ![cenaAndando](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/cenaAndando.png)
 
