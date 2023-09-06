@@ -2224,19 +2224,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.data[1]
-      value: 'Arthur - '
+      value: Zinchenko -  Finalmente
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.data[2]
-      value: Kaio -
+      value: Kaio - Ate a proxima pessoal
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.data[3]
-      value: Alisson -
+      value: Alisson - Espero nunca mais fugir de um boi
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.data[4]
-      value: Thales -
+      value: Thales - ainda bem que eu sei pilotar um aviao
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.data[5]
