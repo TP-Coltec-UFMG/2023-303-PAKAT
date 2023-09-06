@@ -57,7 +57,7 @@ Nesse menu os 5 personagens são mostrados e clicando em cima do icone de cada u
   ![5](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/ProjectSettings/5.png)
      
   ## Fase 3: Thales
-   Nessa fase o personagem TM vai se perder, e para conseguir sair de um vale de plantas carnivoras ele utiliza de um avião que ele achou, por sorte aprendeu a pilotar em um tutorial no Youtube em um canal de uma criança de 9 anos de idade.
+   Nessa fase o personagem TM vai se perder, e para conseguir sair de um vale de plantas carnivoras ele utiliza de um avião que ele achou, por sorte aprendeu a pilotar com um curso do Hotmart.
 
 ![6](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/ProjectSettings/6.png)
 
