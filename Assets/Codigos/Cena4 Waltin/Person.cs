@@ -16,7 +16,6 @@ public class Person : MonoBehaviour
     private GameObject inicialPos, cameraPos;
     public GameObject panelWin;
     public GameObject pausaPainel, GameOver; 
-    public string cena; 
 
     void Start()
     {
