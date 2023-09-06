@@ -49,11 +49,11 @@ public class GeradorDeObstaculos : MonoBehaviour {
             }
 
             // Verifica se o tempo total decorrido é maior que 60 segundos (1 minuto)
-            if (tempoDecorrido > 10f) {
+            if (tempoDecorrido > 25f) {
                 
                 
             }
-            if (tempoDecorrido > 11f) {
+            if (tempoDecorrido > 26f) {
                 obstaculosProntos = true;
                 GameObject.Instantiate(porteira, transform.position, Quaternion.identity);
                 GameObject.Instantiate(next, transform.position, Quaternion.identity);
