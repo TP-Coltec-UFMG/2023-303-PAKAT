@@ -3230,7 +3230,7 @@ GameObject:
   - component: {fileID: 735833890422150225}
   - component: {fileID: 735833890422150224}
   m_Layer: 5
-  m_Name: AtivarDaltonismoDicromatico
+  m_Name: Protanopia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4197,7 +4197,7 @@ GameObject:
   - component: {fileID: 735833890910475589}
   - component: {fileID: 735833890910475588}
   m_Layer: 5
-  m_Name: AtivarDaltonismoAcromatico
+  m_Name: Deuteranotopia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4319,7 +4319,7 @@ GameObject:
   - component: {fileID: 735833890930958972}
   - component: {fileID: 735833890930958963}
   m_Layer: 5
-  m_Name: AtivarDaltonismoTricromatic
+  m_Name: Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
