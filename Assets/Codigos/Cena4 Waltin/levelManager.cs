@@ -6,9 +6,7 @@ using UnityEngine.UI;
 
 public class levelManager : MonoBehaviour
 {
-    
     public Button[] botoes;
-
        
     private void Update() {
         for (int i=0;i<botoes.Length;i++) {

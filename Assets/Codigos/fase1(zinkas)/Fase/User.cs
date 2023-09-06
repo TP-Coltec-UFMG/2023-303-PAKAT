@@ -128,7 +128,7 @@ private void OnCollisionEnter2D(Collision2D collision)
             Time.timeScale = 0;
             win = false;
             //panelWin.transform.position = Vector2.MoveTowards(panelwin.transform.position, cameraPos.transform.position, speedwin * Time.deltaTime);
-            if (SceneManager.GetActiveScene().buildIndex> fase) {
+            if (SceneManager.GetActiveScene().buildIndex > fase) {
                 fase = SceneManager.GetActiveScene().buildIndex;
                 PlayerPrefs.Save();
             }

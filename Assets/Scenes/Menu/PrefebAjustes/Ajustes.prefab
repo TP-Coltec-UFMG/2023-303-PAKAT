@@ -201,7 +201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "acrom\xE1tico"
+  m_text: Deuteranotopia
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72df13162daaa8311870715d31b84311, type: 2}
   m_sharedMaterial: {fileID: -1094719460474977698, guid: 72df13162daaa8311870715d31b84311, type: 2}
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " tricrom\xE1tico"
+  m_text: Normal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72df13162daaa8311870715d31b84311, type: 2}
   m_sharedMaterial: {fileID: -1094719460474977698, guid: 72df13162daaa8311870715d31b84311, type: 2}
@@ -2913,7 +2913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "dicrom\xE1tico"
+  m_text: Protanopia
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72df13162daaa8311870715d31b84311, type: 2}
   m_sharedMaterial: {fileID: -1094719460474977698, guid: 72df13162daaa8311870715d31b84311, type: 2}
