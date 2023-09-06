@@ -16,8 +16,10 @@ public class Obst: MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D outro){
         Debug.Log("Bateu em: " + outro.gameObject.tag);
-        if(outro.gameObject.tag == "barreira")
+        if (outro.gameObject.tag == "barreira")
+        {
             this.Destruir();
+        }
         // else if(outro.gameObject.tag == "Player")
         //     Destroy(outro.gameObject);
     }
