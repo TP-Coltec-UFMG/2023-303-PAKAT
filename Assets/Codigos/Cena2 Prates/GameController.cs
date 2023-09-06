@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
 
     void Start(){
         if(Dificuldade.dific !=0 ){
-        timeCount *= Dificuldade.dific;   
+        timeCount += Dificuldade.dific * -10;   
         }
     }
 
