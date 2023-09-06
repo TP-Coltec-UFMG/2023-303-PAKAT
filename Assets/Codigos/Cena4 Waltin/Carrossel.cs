@@ -14,6 +14,7 @@ public class Carrossel : MonoBehaviour {
         float tamanhoDaImagem = this.GetComponent<SpriteRenderer>().size.y;
         float escala = this.transform.localScale.y;
         this.tamanhoRealDaImagem = tamanhoDaImagem * escala;
+        velocidade *= Dificuldade.dific;
     }
 
 
