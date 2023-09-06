@@ -5,7 +5,7 @@ using UnityEngine;
 public class Dificuldade : MonoBehaviour
 {
     
-    public static float dific; 
+    public static float dific = 1f; 
 
     public void Facil() {
         dific = 1f;

@@ -287,6 +287,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -49.79242
       objectReference: {fileID: 0}
+    - target: {fileID: 7539400231695419954, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 883241537}
+    - target: {fileID: 7539400231695419954, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: loadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231695419954, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ProximaFase, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231695419954, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Fase3
+      objectReference: {fileID: 0}
     - target: {fileID: 7539400231997099846, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -341,6 +357,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+--- !u!114 &883241537 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7526894315792876316, guid: 1ee89d147d5089b30982db85e8259a41, type: 3}
+  m_PrefabInstance: {fileID: 1406039995}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96bdd0102ef008c48819bfd9b8c9d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1043704700
 PrefabInstance:
   m_ObjectHideFlags: 0

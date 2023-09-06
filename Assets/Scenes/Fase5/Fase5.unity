@@ -563,11 +563,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 5.5
---- !u!1 &357406951 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5740798827020159349, guid: 924357f83e0a2924abb626188e42ff00, type: 3}
-  m_PrefabInstance: {fileID: 680405785}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &409957180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,7 +2021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 6
-  GameOver: {fileID: 357406951}
+  GameOver: {fileID: 2127553987}
   pausaPainel: {fileID: 2127553987}
 --- !u!60 &2094578234
 PolygonCollider2D:
