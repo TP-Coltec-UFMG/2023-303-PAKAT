@@ -1105,8 +1105,36 @@ PrefabInstance:
       value: -107.1485
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[0]
+      value: Para pular as falas clique em cima delas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[1]
+      value: '5 estudantes foram fazer uma trilha '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[2]
+      value: Sao eles, Zinckenko, Waltin, Prates, TM,e Kaio
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[3]
+      value: 'Eles estao acompanhados do orientador honda '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[4]
+      value: 'Porem Honda e muito apressado e deixou todos para tras '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: falas.Array.data[5]
-      value: 
+      value: 'agora eles tem que se virar para chegar '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539400231566045058, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
+      propertyPath: falas.Array.data[6]
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7539400231569492314, guid: 4c79e71ed9ff6f64496ef64f200260e9, type: 3}
       propertyPath: m_AnchoredPosition.x
