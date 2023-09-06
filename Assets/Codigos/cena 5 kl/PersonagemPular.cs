@@ -78,7 +78,7 @@ public class PersonagemPular : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("vitoria"))
         {
-            SceneManager.LoadScene("CenaFinal");
+            SceneManager.LoadScene("AnimFinal");
             Time.timeScale = 0;
         }
 
