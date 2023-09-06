@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Obstaculo: MonoBehaviour {
-    [SerializeField] private float velocidade = 5f;
+    [SerializeField] private float velocidade = 8f;
     [SerializeField] private float variacaoDaPosicaoX = 1;
 
     private void Awake(){
