@@ -946,7 +946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5257e7299bada5747986300687da96cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerarHonda: 60
+  tempoParaGerarHonda: 0
   honda: {fileID: 9153978868318325295, guid: fb4af42f0559420e0b469526a534298b, type: 3}
 --- !u!4 &1303501143
 Transform:
