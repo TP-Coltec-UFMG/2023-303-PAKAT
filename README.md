@@ -32,7 +32,7 @@ Nesse cenário uma tela de configurações é aberta e nela existem as seguintes
 
   Uso do teclado: Em todas as fases é usado apenas as teclas direcionais (arrow keys), isso faz com que as pessoas tenham mais facilidade no controle de movimento dos personagens.
 
-  ![menuAjustes](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/MenuAjuste.png)
+  ![img](https://raw.githubusercontent.com/TP-Coltec-UFMG/2023-303-PAKAT/main/ProjectSettings/img.png)
 
   ## CutScenes
 Essas são cenas introdutória do nosso game, na primeira há uma cena em que uma van anda por um cenário inicial, e após isso aparece uma tela preta escrita algumas horas depois, já na segunda os 6 personagens do jogo são apresentados e andam para a direita, a segunda cena vai ter uma pequena legenda que ainda não foi implementada 
