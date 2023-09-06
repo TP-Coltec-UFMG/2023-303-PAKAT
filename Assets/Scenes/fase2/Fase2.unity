@@ -655,7 +655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   victoryScreen: {fileID: 832496830}
   timeText: {fileID: 1128615422}
-  timeCount: 120
+  timeCount: 130
   timeOver: 0
 --- !u!1 &481194749 stripped
 GameObject:
