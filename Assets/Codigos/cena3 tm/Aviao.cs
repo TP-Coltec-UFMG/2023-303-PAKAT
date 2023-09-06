@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class Aviao : MonoBehaviour {
+
     private Rigidbody2D player;
     [SerializeField] private float forca;
     //private Diretor diretor;
     //private Vector3 posicaoInicial;
-
-
 
     private bool restartPlayer, win;
     public GameObject panelWin;
@@ -19,10 +19,14 @@ public class Aviao : MonoBehaviour {
     public GameObject pausaPainel; 
 
     private void Start(){
+
         Time.timeScale = 1f;
         player = GetComponent<Rigidbody2D>();
         inicialPos = GameObject.Find("inicialPos");
         win = false;
+        if (Dificuldade.dific != 0){
+            forca *= Dificuldade.dific;
+        }
     }
 
   
@@ -80,7 +84,7 @@ private void OnCollisionEnter2D(Collision2D collision)
         if (collision.gameObject.CompareTag("vitoria"))
         {
             win = true;
-            Debug.Log(" vitoria");
+            Debug.Log("vitoria");
 
         }
 
@@ -99,6 +103,12 @@ private void OnCollisionEnter2D(Collision2D collision)
             panelWin.SetActive(true);
             Time.timeScale = 0;
             win = false;
+
+            if (SceneManager.GetActiveScene().buildIndex> User.fase) {
+                User.fase = SceneManager.GetActiveScene().buildIndex;
+                PlayerPrefs.Save();
+            }
+
             //panelWin.transform.position = Vector2.MoveTowards(panelwin.transform.position, cameraPos.transform.position, speedwin * Time.deltaTime);
         }
     }

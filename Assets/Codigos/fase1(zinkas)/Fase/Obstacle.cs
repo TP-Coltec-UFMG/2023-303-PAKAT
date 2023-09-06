@@ -23,7 +23,8 @@ public class Obstacle : MonoBehaviour
             transform.position.y,
             transform.position.z);
         transform.position = posicaoInicial;
-        velocidade *= Dificuldade.dific;
+        if (Dificuldade.dific != 0){
+        velocidade *= Dificuldade.dific;}
     }
 
     private void Update()

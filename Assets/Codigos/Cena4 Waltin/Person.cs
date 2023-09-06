@@ -110,10 +110,14 @@ public class Person : MonoBehaviour
             Time.timeScale = 0;
             win = false;
             //panelWin.transform.position = Vector2.MoveTowards(panelwin.transform.position, cameraPos.transform.position, speedwin * Time.deltaTime);
-            if (SceneManager.GetActiveScene().buildIndex>PlayerPrefs.GetInt("faseCompletada")) {
-                PlayerPrefs.SetInt("faseCompletada", SceneManager.GetActiveScene().buildIndex);
+            if (SceneManager.GetActiveScene().buildIndex> User.fase) {
+                User.fase = SceneManager.GetActiveScene().buildIndex;
                 PlayerPrefs.Save();
             }
+            /*if (SceneManager.GetActiveScene().buildIndex>PlayerPrefs.GetInt("faseCompletada")) {
+                PlayerPrefs.SetInt("faseCompletada", SceneManager.GetActiveScene().buildIndex);
+                PlayerPrefs.Save();
+            }*/
         }
     }
 }
