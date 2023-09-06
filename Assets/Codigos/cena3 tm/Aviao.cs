@@ -24,7 +24,7 @@ public class Aviao : MonoBehaviour {
         inicialPos = GameObject.Find("inicialPos");
         win = false;
          if (Dificuldade.dific != 0){
-        velocidade *= Dificuldade.dific;}
+        forca *= Dificuldade.dific;}
     }
 
   
