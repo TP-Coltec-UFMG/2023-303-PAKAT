@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class levelManager : MonoBehaviour
 {
-    /*
+    
     public Button[] botoes;
 
        
@@ -17,5 +17,5 @@ public class levelManager : MonoBehaviour
             }
         }
     }
-*/
+
 }
