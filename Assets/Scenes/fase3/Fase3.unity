@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b2063b0e8c1ecb5adffb618313c231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: 4
 --- !u!212 &98002827
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -459,6 +459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -524,6 +525,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &519420033
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
 --- !u!224 &527648916 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6623002121297007178, guid: 60c65e0d7457f0c5daff76e0ac9ed58a, type: 3}
@@ -729,7 +738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b2063b0e8c1ecb5adffb618313c231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: 4
 --- !u!212 &764887925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1177,6 +1186,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4499486277022089344, guid: 2e8995b7426d7b5369645b1c3ca7759e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 22be56b672b94958994a3a5cfe087159, type: 3}
     - target: {fileID: 4499486277022089345, guid: 2e8995b7426d7b5369645b1c3ca7759e, type: 3}
       propertyPath: m_Name
       value: Musica
@@ -1478,7 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b2063b0e8c1ecb5adffb618313c231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: 4
 --- !u!1 &1220779320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,7 +2402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b2063b0e8c1ecb5adffb618313c231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: 4
 --- !u!212 &2125539377
 SpriteRenderer:
   m_ObjectHideFlags: 0

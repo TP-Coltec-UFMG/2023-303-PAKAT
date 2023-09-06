@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046934c8c6a9413899ae2538e4edc71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 6
+  tempoParaGerar: 2
   prefabObstaculo: {fileID: 9003656793143541031, guid: 55c9ab2749825b15aa78f8a987db3f64, type: 3}
 --- !u!1 &326060952
 GameObject:
@@ -1853,7 +1853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046934c8c6a9413899ae2538e4edc71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 4
+  tempoParaGerar: 3
   prefabObstaculo: {fileID: 8370608566918192987, guid: 145174b79066294e99eb8b44e02e7e3f, type: 3}
 --- !u!4 &962776519
 Transform:
@@ -2227,7 +2227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ea22ca785ed07b688cc1b125ae87e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 5
+  tempoParaGerar: 4.5
   prefabObstaculo: {fileID: 5574106143363661990, guid: 12d4472d17e72232cb9e1e528f7f6fb0, type: 3}
 --- !u!1 &1286315698
 GameObject:
@@ -3147,7 +3147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046934c8c6a9413899ae2538e4edc71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 10
+  tempoParaGerar: 40
   prefabObstaculo: {fileID: 2009326478953418669, guid: cb48cdba17f130696b87efef3a506d65, type: 3}
 --- !u!1 &1544818421
 GameObject:
@@ -3371,6 +3371,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4499486277022089344, guid: 2e8995b7426d7b5369645b1c3ca7759e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bfdda0dcda5dfb5539af74ae9db5e490, type: 3}
     - target: {fileID: 4499486277022089345, guid: 2e8995b7426d7b5369645b1c3ca7759e, type: 3}
       propertyPath: m_Name
       value: Musica
