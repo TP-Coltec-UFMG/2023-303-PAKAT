@@ -12,7 +12,9 @@ public class GameController : MonoBehaviour
     public bool timeOver = false;
 
     void Start(){
-        timeCount *= 1;   
+        if(Dificuldade.dific !=0 ){
+        timeCount *= Dificuldade.dific;   
+        }
     }
 
     private void Update()
