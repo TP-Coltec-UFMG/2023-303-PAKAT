@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b2063b0e8c1ecb5adffb618313c231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: 3
 --- !u!212 &98002827
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -729,7 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b2063b0e8c1ecb5adffb618313c231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: 3
 --- !u!212 &764887925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1177,6 +1177,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4499486277022089344, guid: 2e8995b7426d7b5369645b1c3ca7759e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3533cacd53485de4b9bc9f137f860b30, type: 3}
     - target: {fileID: 4499486277022089345, guid: 2e8995b7426d7b5369645b1c3ca7759e, type: 3}
       propertyPath: m_Name
       value: Musica
@@ -1478,7 +1482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b2063b0e8c1ecb5adffb618313c231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: 3
 --- !u!1 &1220779320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,7 +2393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b2063b0e8c1ecb5adffb618313c231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: 3
 --- !u!212 &2125539377
 SpriteRenderer:
   m_ObjectHideFlags: 0
