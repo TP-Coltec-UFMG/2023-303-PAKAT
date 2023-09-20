@@ -65,3 +65,5 @@ public class GeradorDeObstaculos : MonoBehaviour {
         Destroy(outro.gameObject);
     }
 }
+
+//alsdfjlaksjflasjflkjaslkfjaskljflkasjflkasjflkjas jonhLombra
